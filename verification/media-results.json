@@ -1,0 +1,43 @@
+{
+  "fullscreen": true,
+  "internalSteps": true,
+  "decoded": [
+    {
+      "file": "audio/forest/forest.mp3",
+      "duration": 24,
+      "channels": 1
+    },
+    {
+      "file": "audio/storm/storm.mp3",
+      "duration": 20,
+      "channels": 1
+    },
+    {
+      "file": "audio/footsteps/body.mp3",
+      "duration": 24,
+      "channels": 1
+    },
+    {
+      "file": "audio/water/soundscape.mp3",
+      "duration": 18.00047916666667,
+      "channels": 1
+    },
+    {
+      "file": "audio/birds/local.wav",
+      "duration": 6.826666666666667,
+      "channels": 1
+    }
+  ],
+  "offlineRanges": [
+    {
+      "file": "audio/birds/local.wav",
+      "status": 206,
+      "length": 100
+    },
+    {
+      "file": "video/mountains/scale.mp4",
+      "status": 206,
+      "length": 100
+    }
+  ]
+}

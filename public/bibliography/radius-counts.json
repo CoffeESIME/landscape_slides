@@ -1,0 +1,14 @@
+{
+  "1": {
+    "count": 40,
+    "url": "https://api.inaturalist.org/v1/observations/species_counts?lat=19.35&lng=-99.2833333333&radius=1&taxon_id=3&quality_grade=research&d2=2026-10-03&locale=es&per_page=200&rank=species&geo=True"
+  },
+  "2": {
+    "count": 88,
+    "url": "https://api.inaturalist.org/v1/observations/species_counts?lat=19.35&lng=-99.2833333333&radius=2&taxon_id=3&quality_grade=research&d2=2026-10-03&locale=es&per_page=200&rank=species&geo=True"
+  },
+  "5": {
+    "count": 176,
+    "url": "https://api.inaturalist.org/v1/observations/species_counts?lat=19.35&lng=-99.2833333333&radius=5&taxon_id=3&quality_grade=research&d2=2026-10-03&locale=es&per_page=200&rank=species&geo=True"
+  }
+}

@@ -1,0 +1,8 @@
+import { createServer } from 'node:http';
+import { readFile, stat } from 'node:fs/promises';
+import { resolve, extname, sep } from 'node:path';
+import { fileURLToPath } from 'node:url';
+const root=resolve(fileURLToPath(new URL('../dist/',import.meta.url)));
+const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json','.svg':'image/svg+xml','.webp':'image/webp','.mp3':'audio/mpeg','.mp4':'video/mp4','.woff2':'font/woff2','.ogg':'audio/ogg','.wav':'audio/wav'};
+const server=createServer(async(req,res)=>{try{const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);const path=resolve(root,'.'+(pathname==='/'?'/index.html':pathname));if(path!==root&&!path.startsWith(root+sep)){res.writeHead(403).end();return;}const data=await readFile(path);const type=types[extname(path)]||'application/octet-stream';const range=req.headers.range;const match=range&&/^bytes=(\d+)-(\d*)$/.exec(range);if(match){const start=+match[1],end=match[2]?Math.min(+match[2],data.length-1):data.length-1;if(start> end){res.writeHead(416,{'Content-Range':`bytes */${data.length}`}).end();return;}res.writeHead(206,{'Content-Type':type,'Accept-Ranges':'bytes','Content-Range':`bytes ${start}-${end}/${data.length}`,'Content-Length':end-start+1});res.end(data.subarray(start,end+1));}else{res.writeHead(200,{'Content-Type':type,'Content-Length':data.length,'Cache-Control':'no-cache'});res.end(data);}}catch{res.writeHead(404).end('Archivo no encontrado');}});
+server.listen(4173,'127.0.0.1',()=>console.log('Entre concreto: http://127.0.0.1:4173 · Ctrl+C para cerrar'));

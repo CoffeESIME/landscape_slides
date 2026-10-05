@@ -1,0 +1,212 @@
+[
+  {
+    "id": "preludio",
+    "title": "Entre concreto: una flor y un canto",
+    "chapter": 0,
+    "steps": 1
+  },
+  {
+    "id": "primera-mirada",
+    "title": "La primera pregunta",
+    "chapter": 0,
+    "steps": 2
+  },
+  {
+    "id": "iztaccihuatl",
+    "title": "La misma pregunta",
+    "chapter": 0,
+    "steps": 3
+  },
+  {
+    "id": "kailash",
+    "title": "Historias que aún no conocemos",
+    "chapter": 0,
+    "steps": 2
+  },
+  {
+    "id": "paisaje",
+    "title": "Lo físico y lo vivido",
+    "chapter": 0,
+    "steps": 2
+  },
+  {
+    "id": "animales",
+    "title": "Seguimos siendo animales",
+    "chapter": 1,
+    "steps": 2
+  },
+  {
+    "id": "miedo",
+    "title": "La naturaleza también da miedo",
+    "chapter": 1,
+    "steps": 8
+  },
+  {
+    "id": "asombro",
+    "title": "Más cielo que tierra",
+    "chapter": 1,
+    "steps": 3
+  },
+  {
+    "id": "yo",
+    "title": "Un yo más pequeño",
+    "chapter": 1,
+    "steps": 5
+  },
+  {
+    "id": "alteridad",
+    "title": "El otro sigue siendo otro",
+    "chapter": 1,
+    "steps": 3
+  },
+  {
+    "id": "poder",
+    "title": "El poder de transformar",
+    "chapter": 1,
+    "steps": 4
+  },
+  {
+    "id": "ciudad",
+    "title": "Acercarnos",
+    "chapter": 2,
+    "steps": 1
+  },
+  {
+    "id": "cerro-estrella",
+    "title": "La ciudad dentro del paisaje",
+    "chapter": 2,
+    "steps": 2
+  },
+  {
+    "id": "flor",
+    "title": "Una interrupción",
+    "chapter": 2,
+    "steps": 2
+  },
+  {
+    "id": "terceros-lugares",
+    "title": "Simplemente estar",
+    "chapter": 2,
+    "steps": 2
+  },
+  {
+    "id": "goce",
+    "title": "Porque me gusta que exista",
+    "chapter": 2,
+    "steps": 3
+  },
+  {
+    "id": "caminar",
+    "title": "Caminar sin llegar",
+    "chapter": 2,
+    "steps": 4
+  },
+  {
+    "id": "poesia",
+    "title": "Frente a la montaña",
+    "chapter": 2,
+    "steps": 3
+  },
+  {
+    "id": "bosque-poema",
+    "title": "Una respiración en el bosque",
+    "chapter": 2,
+    "steps": 2
+  },
+  {
+    "id": "ave",
+    "title": "Un canto",
+    "chapter": 3,
+    "steps": 7
+  },
+  {
+    "id": "resolucion",
+    "title": "Distinguir",
+    "chapter": 3,
+    "steps": 3
+  },
+  {
+    "id": "cuantas-aves",
+    "title": "Antes de contar",
+    "chapter": 3,
+    "steps": 1
+  },
+  {
+    "id": "biodiversidad",
+    "title": "Alrededor de aquí",
+    "chapter": 3,
+    "steps": 1
+  },
+  {
+    "id": "observacion",
+    "title": "De mirar a registrar",
+    "chapter": 4,
+    "steps": 7
+  },
+  {
+    "id": "ciencia-comunitaria",
+    "title": "Conocer juntos",
+    "chapter": 4,
+    "steps": 4
+  },
+  {
+    "id": "universidad",
+    "title": "Un laboratorio vivo",
+    "chapter": 4,
+    "steps": 9
+  },
+  {
+    "id": "espacio-vacio",
+    "title": "Un lugar cercano",
+    "chapter": 5,
+    "steps": 2
+  },
+  {
+    "id": "capas",
+    "title": "Lo que sabemos y lo que falta",
+    "chapter": 5,
+    "steps": 5
+  },
+  {
+    "id": "antes",
+    "title": "Antes de transformar",
+    "chapter": 5,
+    "steps": 3
+  },
+  {
+    "id": "tesis",
+    "title": "Aprender qué es ya",
+    "chapter": 5,
+    "steps": 1
+  },
+  {
+    "id": "conocer-lugar",
+    "title": "Cómo podemos saberlo",
+    "chapter": 5,
+    "steps": 8
+  },
+  {
+    "id": "lugar-perdido",
+    "title": "Un lugar que ya no está",
+    "chapter": 5,
+    "steps": 3
+  },
+  {
+    "id": "regreso",
+    "title": "Volver a la montaña",
+    "chapter": 6,
+    "steps": 10
+  },
+  {
+    "id": "lo-pequeno",
+    "title": "Volver a lo pequeño",
+    "chapter": 6,
+    "steps": 3
+  },
+  {
+    "id": "cierre",
+    "title": "Disfrutarlo",
+    "chapter": 6,
+    "steps": 12
+  }
+]

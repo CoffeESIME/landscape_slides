@@ -1,0 +1,21 @@
+{
+  "scenes": 35,
+  "steps": 133,
+  "errors": [],
+  "missing": [],
+  "checks": [
+    "keyboard-full-route",
+    "all-presenter-notes",
+    "chapter-jumps",
+    "home-end-space-left",
+    "audio-exclusive-mute-replay",
+    "video",
+    "hash",
+    "sources",
+    "radii",
+    "1920x1080",
+    "1366x768",
+    "reduced-motion",
+    "offline-reload-and-image"
+  ]
+}
