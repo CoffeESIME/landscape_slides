@@ -42,17 +42,17 @@ export function PlaceCard({id}:{id:string}) {
  return <><img className="place-photo" src={imagePath(id)} alt={mediaById[id]?.alt || p.name}/><p className="eyebrow">{p.location}</p><h2>{p.name}</h2><p className="place-concept">{p.concept}</p><p>{p.text}</p><a href={source.url} target="_blank" rel="noreferrer">{source.author} ↗</a><p className="credit">Fotografía: {mediaById[id]?.author} · {mediaById[id]?.license}</p></>;
 }
 
-export default function SceneView({scene,step,reduced,onStart,onPlace,onReplay}:{scene:Scene;step:number;reduced:boolean;onStart:()=>void;onPlace:(id:string)=>void;onReplay:()=>void}) {
+export default function SceneView({scene,step,reduced,onStart,onPlace,onReplay,audioEnabled,audioVolume}:{scene:Scene;step:number;reduced:boolean;onStart:()=>void;onPlace:(id:string)=>void;onReplay:()=>void;audioEnabled:boolean;audioVolume:number}) {
  const current=scene.steps[step];const [choice,setChoice]=useState<number|null>(null);
  if(scene.layout==='opening')return <div className="opening-content"><div className="opening-eyebrow"><span/> UNA INVITACIÓN A DETENERSE</div><h1>Entre concreto:<br/><em>una flor y un canto</em></h1><p className="opening-subtitle">{metadata.subtitle}</p><button className="start-button" onClick={onStart}>Comenzar el recorrido <span>↗</span></button></div>;
- if(scene.layout==='bird-reveal')return <BirdReveal {...localBird} step={step} onReplay={onReplay}/>;
+ if(scene.layout==='bird-reveal')return <BirdReveal step={step} video={videoManifest.hummingbird.path} commonName={videoManifest.hummingbird.commonName} scientificName={videoManifest.hummingbird.scientificName} enabled={audioEnabled} volume={audioVolume}/>;
  if(scene.layout==='radius-map')return <CampusExplorer/>;
  if(scene.layout==='place-layers')return <PlaceLayers step={step} observedLayers={observedLayers} investigationLayers={investigationLayers}/>;
  if(scene.layout==='community-flow')return <CommunityScienceFlow step={step}/>;
  if(scene.layout==='observation')return <ObservationRecord step={step} image={localBird.image}/>;
  if(scene.layout==='resolution'&&step===1)return <div className="resolution-species">{biodiversity.observations.slice(0,6).map(o=><article key={o.id}>{o.photo&&<img src={asset(o.photo)} alt={o.commonName} loading="lazy"/>}<h3>{o.commonName}</h3><em>{o.scientificName}</em></article>)}</div>;
  if(scene.layout==='dimensions'&&step===1)return <div className="landscape-dimensions">{dimensions.map(d=><section key={d.label}><p className="eyebrow">{d.label}</p><h2>{d.title}</h2><p>{d.items.join(' · ')}</p></section>)}</div>;
- if(scene.layout==='nearby')return <div className="generic-scene">{nearbyPlace.image&&<img className="nearby-image" src={asset(nearbyPlace.image)} alt={nearbyPlace.name}/>}<h2>{current.text}</h2>{!nearbyPlace.image&&<p className="scene-detail">Fotografía del espacio cercano pendiente · imaginemos el lugar que queremos conocer.</p>}</div>;
+ if(scene.layout==='nearby')return <div className="generic-scene">{nearbyPlace.image&&<img className="nearby-image" src={asset(nearbyPlace.image)} alt={nearbyPlace.name}/>}<h2>{current.text}</h2>{!nearbyPlace.image&&<p className="scene-detail">Pensemos en un lugar cercano.</p>}</div>;
  if(scene.layout==='poem'&&current.kind){const poem=poems[current.kind as 'libai'|'heine'];return <div className="generic-scene poem-pause">{import.meta.env.DEV?<><h2 className="editorial-placeholder">{poem.placeholder}</h2><p className="scene-detail">{poem.label} · no proyectar como cita</p></>:<p className="eyebrow">UNA PAUSA PARA PERMANECER</p>}</div>;}
  if(current.kind==='black')return <div className="black-scene" aria-label={current.audio?'Escucha de tormenta sobre pantalla negra':'Silencio sobre pantalla negra'}/>;
  if(scene.layout==='map')return <div className="map-scene"><p className="eyebrow">GEOGRAFÍAS DEL SIGNIFICADO</p><h2>{current.text}</h2><WorldMap onPlace={onPlace}/></div>;

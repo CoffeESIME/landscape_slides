@@ -354,5 +354,15 @@
     "attribution": "Captura real, 8 oct 2026; radio 5 km; datos iNaturalist, grado de investigación. Atribución cartográfica preservada dentro de la imagen.",
     "localPath": "images/uam-app/mapa-5km.png",
     "alt": "Mapa real del explorador UAM Cuajimalpa a 5 km."
+  },
+  {
+    "id": "own-bird-video",
+    "type": "video",
+    "source": "video/colibri_orejas_blancas.mp4",
+    "author": "Expositor · grabación propia",
+    "license": "Uso autorizado en esta presentación; sin licencia pública declarada",
+    "attribution": "Cuajimalpa de Morelos. Colibrí orejas blancas (Basilinna leucotis), identificación confirmada por el expositor. Copia H.264/SDR con audio del mismo registro. Fecha incrustada: 2026-09-29T13:52:05Z; no confirmada como fecha de campo.",
+    "localPath": "video/colibri-presentacion.mp4",
+    "alt": "Video real de un colibrí orejas blancas sobre una rama"
   }
 ]

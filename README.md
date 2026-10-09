@@ -25,11 +25,11 @@ En Preferencias, elegir **Preparar copia sin conexión** y esperar la confirmaci
 
 ## Contenido y datos
 
-- `src/data/presentation.ts`: 35 escenas, 130 pasos, siete actos y notas.
+- `src/data/presentation.ts`: 31 escenas, 111 pasos, siete actos y notas.
 - `src/data/biodiversity.ts`: centro, selección de registros y configuración del ave.
 - `src/data/campus-explorer.json`: capturas reales de Islas Vivas (aves_zona), radios y registros con distancia. El enlace al explorador requiere la app en localhost:3011; las capturas funcionan offline.
 - `src/data/local-observations.json`: ocho especies documentadas y sus fuentes.
-- `src/data/local-bird.json`: foto y vocalización del colibrí orejas blancas.
+- `src/data/local-bird.json`: foto y vocalización anteriores conservadas para referencia. El recorrido usa `src/data/local-video.json` y el video propio.
 - `public/bibliography/radius-counts.json`: conteos y consultas exactas de iNaturalist.
 - `src/data/places.ts`: imagen opcional del espacio cercano y capas observadas/por investigar.
 - `src/data/poems.ts`: verificación editorial de poemas y citas.
@@ -39,3 +39,11 @@ En Preferencias, elegir **Preparar copia sin conexión** y esperar la confirmaci
 No sustituir la foto del espacio cercano por una imagen de otro terreno. Los radios parten del centro de UAM Cuajimalpa utilizado por el proyecto aves_zona: 19.3525, −99.2824. No convertir los conteos históricos en afirmaciones de presencia actual.
 
 Ver **ACTUALIZACION.md** para el informe completo, **INVENTARIO-NARRATIVO.md** para las decisiones previas y **ASSETS-PENDIENTES.md** para el material editorial pendiente.
+
+## Pulido narrativo
+
+Guía de 30 minutos: 4 / 4 / 5 / 5 / 5 / 4 / 3 por acto, siempre con avance manual. Notas de ensayo y puentes en `src/data/rehearsal.ts`. Informe y tabla antes/después en **ACTUALIZACION.md**. Capturas nuevas en `verification/pulido-20261009/`.
+
+El colibrí se escucha primero con imagen oculta; M activa/silencia el audio. Después se revela el video, nombre común y científico; el paso de repetición y su botón reinician el mismo archivo. Repetir conserva el mute. El cierre y el cambio de escena detienen el registro.
+
+Prueba adicional de integridad: `node tests/integrity.e2e.mjs` (servidor en 4173). Recorre todos los pasos en ambas resoluciones, verifica assets, hashes antiguos, tiempos y fullscreen del video.

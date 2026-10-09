@@ -1,7 +1,7 @@
 export const birdNarrative = {
- question:'¿Qué escuchan?', tomorrow:'¿Lo escucharían igual mañana?',
+ question:'¿Qué escuchan?', again:'¿Lo escucharían igual ahora?',
  conclusion:['El ave ya estaba ahí.','Cambió el observador.'],
- replay:'↻ Escuchar el mismo canto'
+ replay:'↻ Repetir el mismo registro'
 };
 export const dimensions = [
  {label:'FÍSICO',title:'Lo que está ahí.',items:['roca','agua','vegetación','relieve','animales']},

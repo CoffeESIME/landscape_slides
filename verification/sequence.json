@@ -51,19 +51,13 @@
     "id": "yo",
     "title": "Un yo más pequeño",
     "chapter": 1,
-    "steps": 5
+    "steps": 4
   },
   {
     "id": "alteridad",
     "title": "El otro sigue siendo otro",
     "chapter": 1,
     "steps": 3
-  },
-  {
-    "id": "poder",
-    "title": "El poder de transformar",
-    "chapter": 1,
-    "steps": 4
   },
   {
     "id": "ciudad",
@@ -102,18 +96,6 @@
     "steps": 4
   },
   {
-    "id": "poesia",
-    "title": "Frente a la montaña",
-    "chapter": 2,
-    "steps": 3
-  },
-  {
-    "id": "bosque-poema",
-    "title": "Una respiración en el bosque",
-    "chapter": 2,
-    "steps": 2
-  },
-  {
     "id": "ave",
     "title": "Un canto",
     "chapter": 3,
@@ -126,16 +108,10 @@
     "steps": 3
   },
   {
-    "id": "cuantas-aves",
-    "title": "Antes de contar",
-    "chapter": 3,
-    "steps": 1
-  },
-  {
-    "id": "biodiversidad",
-    "title": "Aves de UAM Cuajimalpa",
-    "chapter": 3,
-    "steps": 1
+    "id": "historias",
+    "title": "Compartir lo encontrado",
+    "chapter": 4,
+    "steps": 3
   },
   {
     "id": "observacion",
@@ -147,19 +123,31 @@
     "id": "ciencia-comunitaria",
     "title": "Conocer juntos",
     "chapter": 4,
-    "steps": 4
+    "steps": 6
+  },
+  {
+    "id": "cuantas-aves",
+    "title": "Antes de contar",
+    "chapter": 4,
+    "steps": 1
+  },
+  {
+    "id": "biodiversidad",
+    "title": "Aves de UAM Cuajimalpa",
+    "chapter": 4,
+    "steps": 1
   },
   {
     "id": "universidad",
-    "title": "Un laboratorio vivo",
+    "title": "Aprender del entorno",
     "chapter": 4,
-    "steps": 9
+    "steps": 5
   },
   {
-    "id": "espacio-vacio",
-    "title": "Un lugar cercano",
+    "id": "conocer-lugar",
+    "title": "Detenernos ante un lugar",
     "chapter": 5,
-    "steps": 2
+    "steps": 1
   },
   {
     "id": "capas",
@@ -168,34 +156,22 @@
     "steps": 5
   },
   {
-    "id": "antes",
-    "title": "Antes de transformar",
+    "id": "transformar",
+    "title": "Aprender antes de decidir",
     "chapter": 5,
     "steps": 3
-  },
-  {
-    "id": "tesis",
-    "title": "Aprender qué es ya",
-    "chapter": 5,
-    "steps": 1
-  },
-  {
-    "id": "conocer-lugar",
-    "title": "Cómo podemos saberlo",
-    "chapter": 5,
-    "steps": 8
   },
   {
     "id": "lugar-perdido",
     "title": "Un lugar que ya no está",
     "chapter": 5,
-    "steps": 3
+    "steps": 2
   },
   {
     "id": "regreso",
     "title": "Volver a la montaña",
     "chapter": 6,
-    "steps": 10
+    "steps": 11
   },
   {
     "id": "lo-pequeno",

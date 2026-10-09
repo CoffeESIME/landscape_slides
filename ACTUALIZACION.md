@@ -1,173 +1,100 @@
-# Revisión del 8 de octubre de 2026
+# Pulido de «Entre concreto: una flor y un canto»
 
-- Campus confirmado: **UAM Cuajimalpa**, centro del proyecto `aves_zona`: **19.3525, −99.2824**.
-- La lámina de biodiversidad utiliza **capturas reales de Islas Vivas**, con radios de 1, 2 y 5 km. Los rótulos reproducen los conteos visibles en las capturas finales: **48 / 85 / 179**. Fuente: iNaturalist, aves, grado de investigación, todo el periodo. Son registros históricos, no un censo actual.
-- Se incorpora una vista con ocho especies por radio, distancias en línea recta y enlaces a sus observaciones. La selección de 5 km procede de los 1000 registros cargados por la app y se identifica como limitada.
-- Capturas y datos se incluyen en la copia offline; el enlace **Abrir explorador completo** abre la app local en el puerto 3011.
-- Los conteos de la primera respuesta del servidor (47 / 85 / 177) diferían de la interfaz capturada. Se conservaron las respuestas originales en `research/uam-app/`; los rótulos finales coinciden con los archivos `metrics-1.txt`, `metrics-2.txt`, `metrics-5.txt` y las capturas.
-- Eliminado el paso de video de Asombro. Se conserva la fotografía y la pregunta.
-- Eliminados los dos pasos negros de Miedo: eran pausas manuales previas al revelado. Ahora aparecen directamente las fotografías de tormenta, precipicio, serpiente y mar; se mejoró su luminosidad.
-- La presentación inicia con controles, número de lámina, progreso y pasos ocultos. **H o doble clic** muestran las herramientas; **S** abre preferencias y **R** las fuentes. La entrada a fullscreen vuelve a ocultar herramientas. Los atajos de navegación siguen activos.
-- La secuencia queda en **35 escenas y 130 pasos**.
+## A. Recorrido narrativo
 
-Archivos principales: `src/App.tsx`, `src/data/presentation.ts`, `src/components/CampusExplorer.tsx`, `src/data/campus-explorer.json`, `src/data/biodiversity.ts`, `src/data/local-observations.json`, `src/data/sources.ts`, `src/components/SceneView.tsx`, `src/styles/main.css`, `public/bibliography/radius-counts.json`, `public/bibliography/media.json`, `public/images/uam-app/`, tests y documentación.
+31 escenas y 111 pasos manuales. Mirar → sentir → habitar → reconocer → conocer juntos → conocer un lugar → regresar. El observador enlaza el experimento de las montañas, la escucha del colibrí y el regreso a la misma montaña y flor. Las preguntas y palabras breves permanecen en pantalla; el razonamiento y los puentes están en notas.
 
-Captura reproducible: `scripts/capture_uam_radii.mjs`, con la app de aves funcionando en 3011. Evidencias: `research/uam-app/`. No se copiaron claves API a la presentación.
+Se conserva la arquitectura React/Vite/TypeScript, SceneView, Drawer, teclado, hashes, fuentes, audio manager, fullscreen, reduced motion, preload y service worker. CampusExplorer conserva centro 19.3525, −99.2824, capturas y conteos 48 / 85 / 179, con advertencias de registros históricos, esfuerzo desigual y precisión variable.
 
-El informe siguiente documenta la versión del 3 de octubre; sus conteos y pendientes de identificación del campus quedan sustituidos por esta revisión.
+## B. Cambios por archivo
 
----
-
-# Informe de actualización
-
-**Entre concreto: una flor y un canto** · 3 de octubre de 2026
-
-Se actualizó la aplicación existente: **35 escenas, 133 pasos, siete actos**. Se conserva React, Vite, TypeScript, Framer Motion, las dos familias tipográficas locales, Drawer, los renderers anteriores, el controlador de navegación y el mecanismo de caché offline. No se creó otro proyecto ni se borraron escenas originales.
-
-## Archivos modificados
-
-| Archivo | Cambio |
+| Archivo | Cambio y motivo |
 |---|---|
-| `src/data/presentation.ts` | Nuevo guion declarativo, siete actos, título, descripción y notas por escena |
-| `src/data/types.ts` | EvidenceType, metadatos de notas, escenas sin rótulos y tres temas nuevos |
-| `src/data/themes.ts` | Inicio azul piedra; amanecer, ciudad y ciencia comunitaria |
-| `src/data/mediaManifest.ts` | Registro de audio local; resuelve recursos mediante BASE_URL |
-| `src/data/sources.ts` | Fuentes locales, ciencia comunitaria, Kailash y Thoreau; bibliografía anterior conservada |
-| `src/components/SceneView.tsx` | Reutilización de layouts e integración de experiencias nuevas |
-| `src/App.tsx` | Conteos dinámicos, siete atajos, cierre sin avance, controles discretos, nuevas notas y fuentes |
-| `src/hooks/useAudio.ts` | Detención exclusiva al cambiar de escena, mute inmediato y repetición controlada |
-| `src/styles/main.css` | Composiciones de radios, especies, capas y registro; portátil, 16:9 y movimiento reducido |
-| `public/bibliography/media.json` | Créditos y rutas de fotografías y audio incorporados |
-| `index.html` | Título y descripción completos |
-| `scripts/serve.mjs` | MIME de WAV y nombre actualizado |
-| `package.json` | Comando test:e2e |
-| `README.md`, `ASSETS-PENDIENTES.md`, `VERIFICACION.md` | Instrucciones y estado real del proyecto |
-| `dist/` | Versión compilada y service worker regenerados |
+| src/data/presentation.ts | Secuencia de 31 escenas, siete actos, universidad abierta, historias compartidas, fusiones y cierre definitivo. |
+| src/data/rehearsal.ts | Notas de ensayo de todas las escenas y tiempos específicos; desarrolla los seis puentes entre actos. |
+| src/data/narrative.ts | Pregunta «¿Lo escucharían igual ahora?» y repetición del mismo registro. |
+| src/data/places.ts | Preguntas sobre vida, ambiente, personas, tiempo y paisaje; cinco acciones de ciencia comunitaria. No se fabrican observaciones. |
+| src/data/local-video.json | Archivo real, copia compatible, créditos propios, identificación confirmada por el expositor y metadata separada de datos de campo. |
+| src/data/mediaManifest.ts | Configuración declarativa del nuevo video. Audio anterior preservado para archivo. |
+| src/data/sources.ts | Fuente de la grabación propia; elimina marcadores entre corchetes de referencias complementarias. |
+| public/bibliography/media.json | Créditos del video propio, sin reutilizar licencia o autoría del canto anterior. |
+| public/video/colibri-presentacion.mp4 | Derivado H.264/SDR de reproducción, con audio del mismo video. Original del usuario intacto. |
+| src/components/LocalNature.tsx | BirdReveal audiovisual progresivo, pausa y replay que conserva mute; PlaceLayers sin «vacío»; flujo comunitario completo. |
+| src/components/SceneView.tsx | Conecta video y volumen global; escena del lugar sin placeholder editorial ni foto sustituta. |
+| src/components/CampusExplorer.tsx | Advertencias visibles sobre muestreo y precisión, además del carácter histórico. |
+| src/App.tsx | Estado de sonido compartido con video, detención al salir, preload previo, créditos propios, guía de minutos y normalización de hash. |
+| src/hooks/navigation.mjs | Alias para los enlaces de escenas fusionadas, retiradas o renombradas. |
+| src/styles/main.css | Video vertical completo sin recortar al ave; controles discretos y tamaño de capas adaptable. |
+| tests/navigation.test.mjs | Regresión de hashes antiguos y destinos útiles. |
+| tests/presentation.e2e.mjs | 111 pasos, notas, imágenes, cierre, colibrí progresivo, mute/replay, offline y capturas. |
+| tests/media.e2e.mjs | Conserva pruebas de audio y fullscreen; añade rangos HTTP del nuevo video offline. |
+| tests/integrity.e2e.mjs | Todos los pasos a ambas resoluciones, límites de elementos, assets, aliases, tiempos y fullscreen del video. |
+| src/data/archive/presentation-before-polish.txt | Copia literal del guion previo a esta intervención. El archivo original de TypeScript también se conserva. |
+| verification/ | Resultados, metadatos del video y capturas nuevas en pulido-20261009. |
+| README.md, INVENTARIO-NARRATIVO.md, ASSETS-PENDIENTES.md, VERIFICACION.md | Uso, decisiones de auditoría, pendientes reales y evidencia de validación actualizados. |
 
-`src/hooks/navigation.mjs`, Drawer, el diseño base de SceneView, el video original, las fuentes locales y los assets anteriores se reutilizaron.
+## C. Antes → después → decisión
 
-## Nuevos componentes y contenido
+| Antes | Después | Decisión |
+|---|---|---|
+| Kailash → Iztaccíhuatl → Kailash → paisaje | Misma estructura | Conservada; notas desarrolladas sin universalizar las historias. |
+| Biofilia / miedo / asombro / yo / alteridad | Mismo arco, más breve | Yo pierde la reflexión lateral sobre agotamiento; alteridad sigue como puente. |
+| poder | Fuera del recorrido | Tema recogido en transformar; original en complementos. |
+| ciudad / cerro-estrella / flor | Mismas escenas | Zoom añade Cuajimalpa; ciudad dentro del paisaje; misma flor al volver. |
+| terceros-lugares / goce | Dos respiraciones breves contiguas | Permanecer y disfrutar enlazados en notas, 54 s y 48 s orientativos. |
+| caminar / poesia / bosque-poema | caminar | Thoreau como única pausa poética; Li Bai y Heine fuera del recorrido y preservados. |
+| ave con foto/audio anteriores | ave con video y audio propios | Escuchar oculto, revelar, nombre común, científico, mismo registro y conclusión. |
+| resolucion | resolucion | Conservada con razonamiento oral ampliado. |
+| Salto directo al registro | historias → observacion → ciencia-comunitaria | Añadido puente experiencia/relato/registro sin equiparar evidencia. |
+| cuantas-aves / biodiversidad en Reconocer | Después de ciencia comunitaria | Pregunta antes de los conteos, CampusExplorer íntegro en Conocer juntos. |
+| universidad guiada por lo que debería existir | universidad centrada en aprendizaje | Diez posibilidades reveladas en grupos; sin imponer programas. |
+| espacio-vacio | conocer-lugar | Pregunta abierta, sin asumir que el espacio se considera vacío. |
+| capas / método en conocer-lugar | capas con preguntas y método oral | Evidencia vs investigación; evita una segunda lista de instrucciones. |
+| antes / tesis | transformar | Una secuencia de tres revelaciones, sin moralina ni triple conclusión. |
+| lugar-perdido | Dos pasos breves | Memoria con ejemplos hipotéticos, sin solicitar intimidad. |
+| regreso / lo-pequeno | Mismos archivos de montaña y flor | Incluye historia en las capas del regreso; resolución del experimento. |
+| cierre con segunda conclusión | cierre definitivo | Añade aprender sus historias; termina en «…si nunca supimos qué había ahí». |
 
-En `src/components/LocalNature.tsx`:
+Hashes heredados: espacio-vacio → conocer-lugar; antes / tesis / poder → transformar; poesia / bosque-poema → caminar. Se limita el paso al rango del destino.
 
-- **BirdReveal**: escucha sin imagen → pregunta → foto → nombre común → nombre científico → mismo audio → cambio del observador. Recibe medios y nombres; utiliza el controlador global de sonido.
-- **BiodiversityRadiusMap**: radios 1/2/5, centro configurable, conteos agregados, selección fotográfica, fuentes y puntos derivados de coordenadas. No contiene especies hardcodeadas. Distingue lista seleccionada de conteo histórico.
-- **PlaceLayers**: cinco categorías progresivas, observado con enlace de evidencia y por investigar con borde discontinuo. Una capa sin evidencia no se dibuja como confirmada.
-- **CommunityScienceFlow**: observación → registro → mapa → conocimiento colectivo. Los puntos conceptuales están identificados como esquema, no datos locales.
-- **ObservationRecord**: campos de registro revelados por pasos.
+## D. Video y créditos
 
-Nuevos archivos: `src/data/biodiversity.ts`, `local-observations.json`, `local-bird.json`, `places.ts`, `poems.ts`, `narrative.ts`, `public/bibliography/radius-counts.json`. Los scripts de descarga conservan el procedimiento de investigación; las respuestas extensas se guardan en `research/`, fuera del paquete público.
+Archivo encontrado: public/video/colibri_orejas_blancas.mp4, 66.028.197 bytes. MP4, HEVC Main 10, 2336×1080 codificados, rotación −90° (presentación vertical), aproximadamente 30 fps, HDR HLG/BT.2020. Duración 36,223 s. AAC estéreo, 48 kHz. El original se conserva sin modificar.
 
-## Escenas fuera del flujo principal
+Copia de reproducción: public/video/colibri-presentacion.mp4, H.264, SDR BT.709, 500×1080, AAC estéreo; 16.081.083 bytes. Conversión con ffmpeg: rotación automática, zscale a luz lineal, tone mapping Hable, BT.709, escala a 1080 de altura, libx264 CRF 21, AAC 160 kbps, faststart. No se sustituyó el sonido ni se mezcló con el registro anterior.
 
-Se archivó íntegra la versión anterior en `src/data/archive/presentation.ts`. El inventario previo está en `INVENTARIO-NARRATIVO.md`.
+Autor: expositor, grabación propia. Localidad: Cuajimalpa de Morelos. Especie: colibrí orejas blancas, Basilinna leucotis, confirmada por el expositor. No se presenta como identificación independiente. Uso autorizado por el autor para esta presentación; no se inventa licencia Creative Commons.
 
-- Sabana/prospect-refuge pasa a notas de biofilia.
-- Atracción y miedo se fusionan en Miedo; la distinción de Mill se integra en Podemos/¿Debemos?
-- Dos horas sin teléfono, Amar, Pantalla, Cuerpo, Escuchar, Tiempo, Memoria metafórica y Cuidar quedan como complemento.
-- Mapa internacional, Niyamgiri y Wirikuta salen del recorrido principal; notas y fuentes permanecen. Takayna y Kahoʻolawe permanecen en bibliografía y en el renderer del mapa preservado.
-- El ejercicio del petirrojo europeo permanece archivado. El flujo principal usa un colibrí documentado alrededor del centro indicado.
+Fecha incrustada 2026-09-29T13:52:05Z y coordenadas +19.3471-099.3178/ conservadas en verification/colibri-original-metadata.json. Se distinguen de datos de campo confirmados.
 
-Las notas complementarias se consultan desde Bibliografía. El archivo conserva los pasos completos para futuras recuperaciones, sin intercalarlos después del cierre.
+Se reproduce primero el audio con imagen oculta. La revelación y la repetición arrancan el mismo archivo desde cero. M silencia también el video; replay no reactiva el sonido si está silenciado. Pausa, salida de escena y conclusión detienen la reproducción. La copia compatible y el original entran al cache automático que enumera public/dist; no requiere rutas hardcodeadas adicionales en el service worker.
 
-## Escenas reutilizadas
+## E. Evidencia pendiente
 
-Biofilia, miedo, awe y video, YO/small self, alteridad, transformación, caminar, goce, pausas de Li Bai y Heine, recuerdo del lugar perdido, regreso y cierre. Se reescribieron sus textos o notas según el nuevo alcance. El YO mantiene su animación original.
+- Fotografía documental del lugar cercano y sus créditos.
+- Observaciones/mediciones del lugar concreto: no se afirma que las preguntas sean hechos.
+- Fecha de campo del video; la metadata se conserva como tal.
+- Licencia pública del video sólo si se desea declarar una para redistribución. La integración solicitada ya está autorizada.
 
-## Nueva secuencia
+Las poesías no verificadas están fuera del recorrido y no bloquean esta versión. Detalle en ASSETS-PENDIENTES.md.
 
-### 1. Mirar
+## F. Validación
 
-Entre concreto: una flor y un canto → La primera pregunta → La misma pregunta → Historias que aÃºn no conocemos → Lo fÃ­sico y lo vivido.
+Ver VERIFICACION.md y los JSON de verification. Se comprueba build, navegación, recorrido, medios, mute/replay, fullscreen, offline/cache, reduced motion, resoluciones, hashes, límites visuales y cierre. Se guardan capturas de los catorce temas solicitados, además de historias y el cerro.
 
-### 2. Sentir
+Se corrigió durante la validación la normalización de hashes heredados cuando dos alias consecutivos apuntaban a la misma escena: ahora la URL también se actualiza aunque la escena no cambie.
 
-Seguimos siendo animales → La naturaleza tambiÃ©n da miedo → MÃ¡s cielo que tierra → Un yo mÃ¡s pequeÃ±o → El otro sigue siendo otro → El poder de transformar.
+## G. Tiempo de ensayo
 
-### 3. Habitar entre concreto
-
-Acercarnos → La ciudad dentro del paisaje → Una interrupciÃ³n → Simplemente estar → Porque me gusta que exista → Caminar sin llegar → Frente a la montaÃ±a → Una respiraciÃ³n en el bosque.
-
-### 4. Reconocer
-
-Un canto → Distinguir → Antes de contar → Alrededor de aquÃ­.
-
-### 5. Conocer juntos
-
-De mirar a registrar → Conocer juntos → Un laboratorio vivo.
-
-### 6. Valorar antes de transformar
-
-Un lugar cercano → Lo que sabemos y lo que falta → Antes de transformar → Aprender quÃ© es ya → CÃ³mo podemos saberlo → Un lugar que ya no estÃ¡.
-
-### 7. Regresar
-
-Volver a la montaÃ±a → Volver a lo pequeÃ±o → Disfrutarlo.
-
-## Datos locales y metodología
-
-Centro entregado por el usuario: **19°21′ N, 99°17′ O**, convertido a **19.3500, −99.2833333333**. No se adjudica nombre a la universidad. Precisión original: minutos; se presenta como aproximada.
-
-| Radio acumulativo | Especies registradas |
+| Acto | Minutos orientativos |
 |---|---:|
-| 1 km | 40 |
-| 2 km | 88 |
-| 5 km | 176 |
+| Mirar | 4 |
+| Sentir | 4 |
+| Habitar entre concreto | 5 |
+| Reconocer | 5 |
+| Conocer juntos | 5 |
+| Conocer un lugar | 4 |
+| Regresar | 3 |
+| Total | 30 |
 
-Fuente: API de iNaturalist, `observations/species_counts`; taxón Aves (3), grado de investigación, identificación a rango especie y fecha de observación hasta 2026-10-03. Las consultas exactas están guardadas con cada conteo en `public/bibliography/radius-counts.json`. Se trata de registros históricos de plataforma, sensibles al esfuerzo de observación; no de abundancia, inventario exhaustivo ni presencia actual. Tampoco prueban presencia en el espacio específico.
-
-Se incorporan ocho especies distintas con imágenes reutilizables, fecha, coordenadas y enlace individual. Sus distancias fueron comprobadas con Haversine. Los puntos del mapa son solo estos registros seleccionados. No hay foto seleccionada en el radio de 1 km; el mapa lo aclara sin confundirlo con ausencia de especies.
-
-La vocalización de **Basilinna leucotis** corresponde al [registro 111224252](https://www.inaturalist.org/observations/111224252), de Arturo Crespo Moctezuma, observado el 12 de abril de 2022, CC BY. Se conserva el archivo original WAV sin edición; ambos pases utilizan el mismo archivo. La foto proviene de otra observación local de la misma especie, acreditada por separado.
-
-## Assets pendientes
-
-- Fotografía del espacio cercano: no existía en los assets recibidos. Se muestra una indicación transparente y se admite ruta configurable.
-- Opcional: filmación real para awe. Se conserva la secuencia original de 20 s construida a partir de una foto.
-- Opcional: flor fotografiada en México y ambientes de campo. La flor incorporada es ilustrativa, de Durham; la tormenta y otros ambientes heredados son síntesis declaradas.
-
-Ya están integradas fotografías documentales de Kailash, Iztaccíhuatl, Cerro de la Estrella, flor entre pavimento, tormenta, precipicio, serpiente, mar y personas en Chapultepec. Cada archivo tiene crédito y licencia. Las imágenes del inicio y del regreso comparten exactamente la misma ruta; no son variantes generadas.
-
-## Datos locales pendientes
-
-Nombre del campus, precisión adicional del centro si se requiere, foto del lugar, periodo futuro de muestreo y evidencia de las capas del espacio. `observedLayers` está vacío deliberadamente: vida, suelo, personas, educación y paisaje aparecen como preguntas POR INVESTIGAR.
-
-## Citas y fuentes
-
-- **Thoreau**: fragmento breve cotejado en [Walking, Project Gutenberg](https://www.gutenberg.org/files/1022/1022-h/1022-h.htm), conservado en inglés. Sin traducción inventada.
-- **Li Bai**: no existía traducción verificada; conservado como pausa y marcador de desarrollo.
-- **Heine**: sin fragmento exacto; mismo tratamiento.
-- **Montaigne**: sin pasaje cotejado; no se atribuye una cita ni se inventa una paráfrasis. Referencia preservada.
-- Las fórmulas sobre paisaje, pertenencia y transformación se identifican como formulaciones del expositor; la reflexión sobre agotamiento no se presenta como resultado científico.
-- El derecho al disfrute se explica como idea ética/cívica, no como afirmación jurídica formal. No se atribuye longevidad al small self.
-- Las lecturas de Kellert, Mill, Hailwood y los casos internacionales conservan sus advertencias de cotejo; no se inventaron páginas ni citas.
-
-En producción, los placeholders poéticos se convierten en pausas visuales. En desarrollo se ven los marcadores para edición. Las notas mantienen el pendiente explícito.
-
-## Funcionalidades comprobadas
-
-- Compilación TypeScript + Vite y generación de service worker: correctas.
-- Cuatro pruebas unitarias originales de navegación: correctas.
-- Recorrido automatizado de **35 escenas / 133 pasos**: correcto; sin errores de página ni assets faltantes.
-- ArrowRight, Space, ArrowLeft, pasos internos, Home/End y siete saltos de acto.
-- Notas de las 35 escenas, fuentes, selección de radios, hashes y cierre sin avance posterior.
-- Pantalla completa mediante F; activación y mute; repetición del canto y exclusión de reproducción simultánea.
-- Decodificación de los cinco audios locales y reproducción del video; desmontaje del video al abandonar el paso.
-- Capturas revisadas en 1920×1080 y 1366×768; sin desbordamiento horizontal. Movimiento reducido probado.
-- Preparación offline, recarga desconectada, imagen del ave sin red y respuestas 206 de audio/video desde caché.
-- Todos los archivos del manifiesto existen; ocho especies únicas y distancias de registros comprobadas.
-- Búsqueda de las referencias explícitas al conflicto local prohibidas por el encargo: sin coincidencias en el contenido.
-
-Resultados: `verification/results.json`, `verification/media-results.json`, `verification/sequence.json` y capturas PNG. Tests reproducibles: `tests/presentation.e2e.mjs` y `tests/media.e2e.mjs`. Los tests de navegador requieren que `dist` esté servido en 4173.
-
-## Prueba narrativa
-
-El recorrido cambia el foco del observador: montaña → historia → emoción → pertenencia sin centralidad → ciudad viva → especies reconocibles → registro → conocimiento colectivo → preguntas sobre lo aparentemente vacío → conocer antes de transformar. Regresa a la misma montaña y termina en la flor, después en negro. La última frase permanece; no se añaden créditos ni agradecimientos después.
-
-## Posibles mejoras futuras
-
-1. Jornada de observación para documentar el espacio concreto y alimentar las capas con evidencia.
-2. Sustituir los pendientes poéticos por traducciones verificadas con derechos claros.
-3. Elegir una ventana temporal homogénea y actualizar los conteos, manteniendo instantáneas reproducibles.
-4. Añadir fotografías propias del campus y video de campo para reforzar el acercamiento local.
-5. Si se necesita, desarrollar una ventana privada de expositor; el modo actual, heredado, muestra notas en la misma pantalla.
+El preludio no consume tiempo de exposición. Las escenas van de 24 segundos a 3,5 minutos; no son mini-conferencias de un minuto. Reservar las respuestas de audiencia dentro de esas ventanas. La duración real depende del ensayo y la participación; ningún temporizador obliga a avanzar.

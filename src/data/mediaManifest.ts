@@ -1,3 +1,4 @@
+import localVideo from './local-video.json';
 import { localBird } from './biodiversity';
 import media from '../../public/bibliography/media.json';
 export interface Media { id: string; type: string; source: string; author: string; license: string; attribution: string; localPath: string; alt: string; }
@@ -14,4 +15,4 @@ export const audioManifest = {
  bird: {path:localBird.audio || null,loop:false,label:'Vocalización real · colibrí orejas blancas · ver créditos'},
 };
 export const bird = {commonName:'Petirrojo europeo',scientificName:'Erithacus rubecula',image:'bird',focus:{x:50,y:48},audio:'bird' as const};
-export const videoManifest = { awe: {path:'video/mountains/scale.mp4',poster:'mountain',duration:20,description:'Secuencia de escala a partir de una fotografía; no es filmación de campo.'} };
+export const videoManifest = { hummingbird:localVideo, awe: {path:'video/mountains/scale.mp4',poster:'mountain',duration:20,description:'Secuencia de escala a partir de una fotografía; no es filmación de campo.'} };

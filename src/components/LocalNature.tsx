@@ -1,21 +1,31 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { asset } from '../data/mediaManifest';
 import type { Center, Radius, SpeciesObservation } from '../data/biodiversity';
 import type { PlaceLayer } from '../data/places';
 import { communityFlow, recordFields } from '../data/places';
 import { birdNarrative, communityNarrative } from '../data/narrative';
 
-export function BirdReveal({step,audio,image,commonName,scientificName,source,onReplay}:{step:number;audio?:string;image?:string;commonName?:string;scientificName?:string;source?:string;onReplay:()=>void}) {
+export function BirdReveal({step,video,commonName,scientificName,enabled,volume}:{step:number;video:string;commonName:string;scientificName:string;enabled:boolean;volume:number}) {
+ const ref=useRef<HTMLVideoElement>(null);
+ const [playing,setPlaying]=useState(false);
+ const [failed,setFailed]=useState(false);
+ const phase=step<2?0:step<5?2:step;
+ const start=()=>{const v=ref.current;if(!v)return;setFailed(false);v.play().catch(()=>setFailed(true));};
+ const replay=()=>{const v=ref.current;if(!v)return;v.currentTime=0;start();};
+ useEffect(()=>{const v=ref.current;if(!v)return;v.muted=!enabled;v.volume=volume;},[enabled,volume]);
+ useEffect(()=>{const v=ref.current;if(!v)return;v.pause();v.currentTime=0;if(phase!==6&&(phase>=2||enabled))v.play().catch(()=>setFailed(true));return()=>v.pause();},[phase]);
+ useEffect(()=>{const v=ref.current;if(v&&enabled&&phase===0)v.play().catch(()=>setFailed(true));},[enabled,phase]);
  return <div className={'bird-reveal reveal-'+step}>
-  {step>=2&&image&&<img src={asset(image)} alt={step>=3?(commonName||'Ave'):'Ave sobre una rama'} />}
+  <video ref={ref} className={step<2?'bird-hidden':''} src={asset(video)} playsInline preload="auto" aria-label={step<2?'Audio del registro; imagen oculta':'Registro audiovisual propio de un colibrí'} onPlay={()=>setPlaying(true)} onPause={()=>setPlaying(false)} onEnded={()=>setPlaying(false)} onError={()=>setFailed(true)}/>
   <div className="bird-reveal-copy">
    {step===1&&<h2>{birdNarrative.question}</h2>}
-   {step>=3&&step<6&&<h2>{commonName||'Especie por verificar'}</h2>}
+   {step>=3&&step<6&&<h2>{commonName}</h2>}
    {step>=4&&step<6&&<p className="latin"><em>{scientificName}</em></p>}
-   {step===5&&<><p className="bird-question">{birdNarrative.tomorrow}</p><button className="text-link" onClick={onReplay} disabled={!audio}>{birdNarrative.replay}</button></>}
+   {step===5&&<p className="bird-question">{birdNarrative.again}</p>}
    {step===6&&<h2>{birdNarrative.conclusion.join('\n')}</h2>}
-   {!audio&&<p className="data-pending">Grabación local pendiente de verificar.</p>}
-   {step>=3&&source&&<a className="credit" href={source} target="_blank" rel="noreferrer">Registro y fuente ↗</a>}
+   {step>=2&&step<6&&<div className="bird-media-controls"><button className="text-link" onClick={()=>playing?ref.current?.pause():start()}>{playing?'Pausar registro':'Reproducir registro'}</button><button className="text-link" onClick={replay}>{birdNarrative.replay}</button></div>}
+   {step>=2&&step<6&&<p className="credit">{enabled?'Audio del mismo video':'Sin sonido · M para escuchar'}</p>}
+   {failed&&<p role="status" className="media-warning">No se pudo reproducir el registro. Usa Reproducir para reintentar.</p>}
   </div>
  </div>;
 }
@@ -41,11 +51,11 @@ export function BiodiversityRadiusMap({observations,center,radii,counts,period}:
 
 export function PlaceLayers({step,observedLayers,investigationLayers}:{step:number;observedLayers:PlaceLayer[];investigationLayers:PlaceLayer[]}) {
  const categories=[...new Set([...observedLayers,...investigationLayers].map(l=>l.category))].slice(0,step+1);
- return <section className="place-layers"><header><p className="eyebrow">CAPAS DEL LUGAR</p><h2>¿Vacío de qué?</h2><p className="layer-legend"><span>● Observado · con evidencia</span><span>○ Por investigar · pregunta pendiente</span></p></header><div className="layer-columns">{categories.map(category=><article key={category}><h3>{category}</h3>{observedLayers.filter(l=>l.category===category&&l.evidenceUrl).map((l,i)=><div key={'o'+i} className="observed-layer"><small>● OBSERVADO</small><p>{l.items.join(' · ')}</p><a href={l.evidenceUrl} target="_blank" rel="noreferrer">Evidencia ↗</a></div>)}{[...investigationLayers,...observedLayers.filter(l=>!l.evidenceUrl)].filter(l=>l.category===category).map((l,i)=><div className="investigation-layer" key={'i'+i}><small>○ POR INVESTIGAR</small><p>{l.items.join(' · ')}</p></div>)}</article>)}</div><p className="credit">Las preguntas no confirman la presencia de estas relaciones en el lugar.</p></section>;
+ return <section className="place-layers"><header><p className="eyebrow">CAPAS DEL LUGAR</p><h2>¿Qué podemos aprender de este lugar?</h2><p className="layer-legend"><span>● Observado · con evidencia</span><span>○ Por investigar · pregunta pendiente</span></p></header><div className="layer-columns">{categories.map(category=><article key={category}><h3>{category}</h3>{observedLayers.filter(l=>l.category===category&&l.evidenceUrl).map((l,i)=><div key={'o'+i} className="observed-layer"><small>● OBSERVADO</small><p>{l.items.join(' · ')}</p><a href={l.evidenceUrl} target="_blank" rel="noreferrer">Evidencia ↗</a></div>)}{[...investigationLayers,...observedLayers.filter(l=>!l.evidenceUrl)].filter(l=>l.category===category).map((l,i)=><div className="investigation-layer" key={'i'+i}><small>○ POR INVESTIGAR</small><p>{l.items.join(' · ')}</p></div>)}</article>)}</div><p className="credit">Las preguntas no confirman la presencia de estas relaciones en el lugar.</p></section>;
 }
 
 export function CommunityScienceFlow({step}:{step:number}) {
- return <section className="community-flow"><p className="eyebrow">CIENCIA COMUNITARIA</p><h2>{step===3?communityNarrative.conclusion:communityNarrative.title}</h2><ol>{communityFlow.slice(0,step+1).map((label,i)=><li key={label}><span>0{i+1}</span>{label}{i<3&&<b>→</b>}</li>)}</ol>{step>=2&&<div className="community-points" aria-label="Esquema de agregación, no registros geográficos reales">{Array.from({length:18},(_,i)=><i key={i} style={{left:(7+i*37%86)+'%',top:(15+i*23%68)+'%'}}/>)}<small>Esquema de agregación · sin coordenadas reales</small></div>}<p className="credit">{communityNarrative.platforms}</p></section>;
+ return <section className="community-flow"><p className="eyebrow">CIENCIA COMUNITARIA</p><h2>{step===5?communityNarrative.conclusion:communityNarrative.title}</h2><ol>{communityFlow.slice(0,step).map((label,i)=><li key={label}><span>0{i+1}</span>{label}{i<4&&<b>→</b>}</li>)}</ol>{step>=2&&<div className="community-points" aria-label="Esquema de agregación, no registros geográficos reales">{Array.from({length:18},(_,i)=><i key={i} style={{left:(7+i*37%86)+'%',top:(15+i*23%68)+'%'}}/>)}<small>Esquema de agregación · sin coordenadas reales</small></div>}<p className="credit">{communityNarrative.platforms}</p></section>;
 }
 export function ObservationRecord({step,image}:{step:number;image?:string}) {
  return <section className="observation-record">{image&&<img src={asset(image)} alt="Ave: punto de partida para una observación"/>}<div><p className="eyebrow">DEL ENCUENTRO AL REGISTRO</p><h2>{step===6?communityNarrative.recordResult:communityNarrative.recordTitle}</h2><ul>{recordFields.slice(0,step).map(f=><li key={f}>{f}</li>)}</ul><p className="credit">Guía de campos · registrar los datos del encuentro real</p></div></section>;

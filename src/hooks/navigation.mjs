@@ -7,7 +7,9 @@ export function backward(position, scenes) {
  return step>0 ? [index,step-1] : index>0 ? [index-1,scenes[index-1].steps.length-1] : position;
 }
 export function parseHash(hash, scenes) {
- const [id,raw]=hash.replace(/^#/,'').split('/');
+ const [requestedId,raw]=hash.replace(/^#/,'').split('/');
+ const aliases={'espacio-vacio':'conocer-lugar',antes:'transformar',tesis:'transformar',poder:'transformar',poesia:'caminar','bosque-poema':'caminar'};
+ const id=aliases[requestedId]||requestedId;
  const index=Math.max(0,scenes.findIndex(s=>s.id===id));
  const n=Number(raw || 0);
  return [index,Math.min(scenes[index].steps.length-1,Math.max(0,Number.isFinite(n)?Math.floor(n):0))];

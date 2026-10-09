@@ -1,6 +1,6 @@
 {
-  "scenes": 35,
-  "steps": 130,
+  "scenes": 31,
+  "steps": 111,
   "errors": [],
   "missing": [],
   "checks": [
@@ -8,7 +8,7 @@
     "all-presenter-notes",
     "chapter-jumps",
     "home-end-space-left",
-    "audio-exclusive-mute-replay",
+    "video-real-hidden-reveal-names-replay-global-mute-no-overlap",
     "asombro-without-video",
     "fear-photos-no-black-steps",
     "controls-hidden-by-default",
@@ -19,6 +19,6 @@
     "1920x1080",
     "1366x768",
     "reduced-motion",
-    "offline-reload-and-image"
+    "offline-reload-video-playback-and-map"
   ]
 }
