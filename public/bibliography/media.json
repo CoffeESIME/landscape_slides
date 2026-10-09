@@ -324,5 +324,35 @@
     "attribution": "Gente corriendo, El Sope.jpg · Convertida a WebP; encuadre.",
     "localPath": "images/city-walk/city-walk.webp",
     "alt": "Gente corriendo en la pista El Sope, Bosque de Chapultepec, Ciudad de México"
+  },
+  {
+    "id": "uam-map-1",
+    "type": "image",
+    "source": "http://localhost:3011/?radius=1&taxon=birds&quality=research&sources=inaturalist&view=points",
+    "author": "Captura propia del proyecto Islas Vivas (aves_zona)",
+    "license": "Interfaz del proyecto local; cartografía © OpenStreetMap · OpenFreeMap",
+    "attribution": "Captura real, 8 oct 2026; radio 1 km; datos iNaturalist, grado de investigación. Atribución cartográfica preservada dentro de la imagen.",
+    "localPath": "images/uam-app/mapa-1km.png",
+    "alt": "Mapa real del explorador UAM Cuajimalpa a 1 km."
+  },
+  {
+    "id": "uam-map-2",
+    "type": "image",
+    "source": "http://localhost:3011/?radius=2&taxon=birds&quality=research&sources=inaturalist&view=points",
+    "author": "Captura propia del proyecto Islas Vivas (aves_zona)",
+    "license": "Interfaz del proyecto local; cartografía © OpenStreetMap · OpenFreeMap",
+    "attribution": "Captura real, 8 oct 2026; radio 2 km; datos iNaturalist, grado de investigación. Atribución cartográfica preservada dentro de la imagen.",
+    "localPath": "images/uam-app/mapa-2km.png",
+    "alt": "Mapa real del explorador UAM Cuajimalpa a 2 km."
+  },
+  {
+    "id": "uam-map-5",
+    "type": "image",
+    "source": "http://localhost:3011/?radius=5&taxon=birds&quality=research&sources=inaturalist&view=points",
+    "author": "Captura propia del proyecto Islas Vivas (aves_zona)",
+    "license": "Interfaz del proyecto local; cartografía © OpenStreetMap · OpenFreeMap",
+    "attribution": "Captura real, 8 oct 2026; radio 5 km; datos iNaturalist, grado de investigación. Atribución cartográfica preservada dentro de la imagen.",
+    "localPath": "images/uam-app/mapa-5km.png",
+    "alt": "Mapa real del explorador UAM Cuajimalpa a 5 km."
   }
 ]

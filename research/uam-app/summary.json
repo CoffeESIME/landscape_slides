@@ -1,0 +1,42 @@
+{
+  "selected": {
+    "speciesCount": 47,
+    "observationCount": 105,
+    "observerCount": 43,
+    "groupCount": 1,
+    "earliestObservation": "2017-06-14",
+    "latestObservation": "2026-09-30",
+    "researchGradeCount": 105
+  },
+  "rings": [
+    {
+      "radiusKm": 0.5,
+      "cumulativeSpecies": 14,
+      "addedSpecies": null
+    },
+    {
+      "radiusKm": 1,
+      "cumulativeSpecies": 47,
+      "addedSpecies": 33
+    },
+    {
+      "radiusKm": 2,
+      "cumulativeSpecies": 85,
+      "addedSpecies": 38
+    },
+    {
+      "radiusKm": 5,
+      "cumulativeSpecies": 177,
+      "addedSpecies": 92
+    },
+    {
+      "radiusKm": 10,
+      "cumulativeSpecies": 251,
+      "addedSpecies": 74
+    }
+  ],
+  "caveats": [
+    "Los registros reflejan observaciones compartidas, no un inventario completo.",
+    "Los anillos tienen áreas diferentes y no deben compararse como unidades equivalentes."
+  ]
+}

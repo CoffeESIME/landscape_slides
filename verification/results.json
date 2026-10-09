@@ -1,6 +1,6 @@
 {
   "scenes": 35,
-  "steps": 133,
+  "steps": 130,
   "errors": [],
   "missing": [],
   "checks": [
@@ -9,7 +9,10 @@
     "chapter-jumps",
     "home-end-space-left",
     "audio-exclusive-mute-replay",
-    "video",
+    "asombro-without-video",
+    "fear-photos-no-black-steps",
+    "controls-hidden-by-default",
+    "real-app-captures-and-distances",
     "hash",
     "sources",
     "radii",

@@ -12,7 +12,7 @@ export type SpeciesObservation = {
 // Incorporar registros trazables después de confirmar campus, periodo y coordenadas.
 // radiusKm es el menor radio que contiene la observación; los conteos son acumulativos.
 export const biodiversity: {center: Center | null; observations: SpeciesObservation[]; period: string; selectedIds: string[]} = {
- center: {latitude:19.35,longitude:-99.2833333333,name:'19°21′ N · 99°17′ O'}, observations: localObservations as SpeciesObservation[], period: 'iNaturalist · grado de investigación · hasta 03 oct 2026', selectedIds: localObservations.map(o=>o.id)
+ center: {latitude:19.3525,longitude:-99.2824,name:'UAM Cuajimalpa'}, observations: localObservations as SpeciesObservation[], period: 'iNaturalist · grado de investigación · consulta de la app · 08 oct 2026', selectedIds: localObservations.map(o=>o.id)
 };
 export const localBird: {audio?: string; image?: string; commonName?: string; scientificName?: string; source?: string} = birdRecord;
 export const counts = radiusCounts;

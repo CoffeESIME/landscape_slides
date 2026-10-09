@@ -1,0 +1,220 @@
+{
+  "title": "UAM Cuajimalpa",
+  "center": {
+    "latitude": 19.3525,
+    "longitude": -99.2824
+  },
+  "source": "iNaturalist · grado de investigación",
+  "capturedAt": "2026-10-08",
+  "filters": {
+    "taxon": "birds",
+    "quality": "research",
+    "sources": [
+      "inaturalist"
+    ],
+    "period": "Todo el periodo"
+  },
+  "snapshots": [
+    {
+      "radiusKm": 1,
+      "count": 48,
+      "image": "images/uam-app/mapa-1km.png",
+      "url": "http://localhost:3011/?radius=1&taxon=birds&quality=research&sources=inaturalist&view=points",
+      "generatedAt": "2026-10-08T21:53:18.295Z",
+      "truncated": false,
+      "returned": 105,
+      "species": [
+        {
+          "commonName": "Zacatonero Serrano",
+          "scientificName": "Oriturus superciliosus",
+          "observedAt": "2024-04-22",
+          "sourceUrl": "https://www.inaturalist.org/observations/208693159",
+          "distanceKm": 0.018750683123161218
+        },
+        {
+          "commonName": "paloma doméstica",
+          "scientificName": "Columba livia domestica",
+          "observedAt": "2024-05-06",
+          "sourceUrl": "https://www.inaturalist.org/observations/213978256",
+          "distanceKm": 0.025697324390404425
+        },
+        {
+          "commonName": "Papamoscas cardenalito",
+          "scientificName": "Pyrocephalus rubinus",
+          "observedAt": "2026-09-30",
+          "sourceUrl": "https://www.inaturalist.org/observations/404737023",
+          "distanceKm": 0.10549975025903925
+        },
+        {
+          "commonName": "Zacatonero corona rayada",
+          "scientificName": "Peucaea ruficauda",
+          "observedAt": "2025-07-18",
+          "sourceUrl": "https://www.inaturalist.org/observations/298942587",
+          "distanceKm": 0.18378614628941575
+        },
+        {
+          "commonName": "Mirlo primavera",
+          "scientificName": "Turdus migratorius",
+          "observedAt": "2024-05-08",
+          "sourceUrl": "https://www.inaturalist.org/observations/214870047",
+          "distanceKm": 0.1968587877558581
+        },
+        {
+          "commonName": "Zafiro Orejas Blancas",
+          "scientificName": "Basilinna leucotis",
+          "observedAt": "2020-07-05",
+          "sourceUrl": "https://www.inaturalist.org/observations/52086987",
+          "distanceKm": 0.20362993606723137
+        },
+        {
+          "commonName": "Chipe de Townsend",
+          "scientificName": "Setophaga townsendi",
+          "observedAt": "2023-10-27",
+          "sourceUrl": "https://www.inaturalist.org/observations/189141951",
+          "distanceKm": 0.2516796692389474
+        },
+        {
+          "commonName": "Pinzón mexicano",
+          "scientificName": "Haemorhous mexicanus",
+          "observedAt": "2024-03-20",
+          "sourceUrl": "https://www.inaturalist.org/observations/203237407",
+          "distanceKm": 0.2653724369320018
+        }
+      ]
+    },
+    {
+      "radiusKm": 2,
+      "count": 85,
+      "image": "images/uam-app/mapa-2km.png",
+      "url": "http://localhost:3011/?radius=2&taxon=birds&quality=research&sources=inaturalist&view=points",
+      "generatedAt": "2026-10-08T21:53:36.189Z",
+      "truncated": false,
+      "returned": 707,
+      "species": [
+        {
+          "commonName": "Zacatonero Serrano",
+          "scientificName": "Oriturus superciliosus",
+          "observedAt": "2024-04-22",
+          "sourceUrl": "https://www.inaturalist.org/observations/208693159",
+          "distanceKm": 0.018750683123161218
+        },
+        {
+          "commonName": "paloma doméstica",
+          "scientificName": "Columba livia domestica",
+          "observedAt": "2024-05-06",
+          "sourceUrl": "https://www.inaturalist.org/observations/213978256",
+          "distanceKm": 0.025697324390404425
+        },
+        {
+          "commonName": "Papamoscas cardenalito",
+          "scientificName": "Pyrocephalus rubinus",
+          "observedAt": "2026-09-30",
+          "sourceUrl": "https://www.inaturalist.org/observations/404737023",
+          "distanceKm": 0.10549975025903925
+        },
+        {
+          "commonName": "Zacatonero corona rayada",
+          "scientificName": "Peucaea ruficauda",
+          "observedAt": "2025-07-18",
+          "sourceUrl": "https://www.inaturalist.org/observations/298942587",
+          "distanceKm": 0.18378614628941575
+        },
+        {
+          "commonName": "Mirlo primavera",
+          "scientificName": "Turdus migratorius",
+          "observedAt": "2024-05-08",
+          "sourceUrl": "https://www.inaturalist.org/observations/214870047",
+          "distanceKm": 0.1968587877558581
+        },
+        {
+          "commonName": "Zafiro Orejas Blancas",
+          "scientificName": "Basilinna leucotis",
+          "observedAt": "2020-07-05",
+          "sourceUrl": "https://www.inaturalist.org/observations/52086987",
+          "distanceKm": 0.20362993606723137
+        },
+        {
+          "commonName": "Chipe de Townsend",
+          "scientificName": "Setophaga townsendi",
+          "observedAt": "2023-10-27",
+          "sourceUrl": "https://www.inaturalist.org/observations/189141951",
+          "distanceKm": 0.2516796692389474
+        },
+        {
+          "commonName": "Pinzón mexicano",
+          "scientificName": "Haemorhous mexicanus",
+          "observedAt": "2024-03-20",
+          "sourceUrl": "https://www.inaturalist.org/observations/203237407",
+          "distanceKm": 0.2653724369320018
+        }
+      ]
+    },
+    {
+      "radiusKm": 5,
+      "count": 179,
+      "image": "images/uam-app/mapa-5km.png",
+      "url": "http://localhost:3011/?radius=5&taxon=birds&quality=research&sources=inaturalist&view=points",
+      "generatedAt": "2026-10-08T21:54:01.221Z",
+      "truncated": true,
+      "returned": 1000,
+      "species": [
+        {
+          "commonName": "Zafiro Orejas Blancas",
+          "scientificName": "Basilinna leucotis",
+          "observedAt": "2020-07-05",
+          "sourceUrl": "https://www.inaturalist.org/observations/52086987",
+          "distanceKm": 0.20362993606723137
+        },
+        {
+          "commonName": "Carpintero bellotero",
+          "scientificName": "Melanerpes formicivorus",
+          "observedAt": "2019-10-01",
+          "sourceUrl": "https://www.inaturalist.org/observations/33697980",
+          "distanceKm": 0.2672669066148329
+        },
+        {
+          "commonName": "Gorrión Doméstico",
+          "scientificName": "Passer domesticus",
+          "observedAt": "2021-10-15",
+          "sourceUrl": "https://www.inaturalist.org/observations/109107690",
+          "distanceKm": 0.4233147572032146
+        },
+        {
+          "commonName": "Calandria Cejas Naranjas",
+          "scientificName": "Icterus bullockii",
+          "observedAt": "2020-04-01",
+          "sourceUrl": "https://www.inaturalist.org/observations/41212765",
+          "distanceKm": 0.4778537664410724
+        },
+        {
+          "commonName": "Papamoscas cardenalito",
+          "scientificName": "Pyrocephalus rubinus",
+          "observedAt": "2020-11-26",
+          "sourceUrl": "https://www.inaturalist.org/observations/66303332",
+          "distanceKm": 0.541047705305833
+        },
+        {
+          "commonName": "Sastrecillo",
+          "scientificName": "Psaltriparus minimus",
+          "observedAt": "2020-11-26",
+          "sourceUrl": "https://www.inaturalist.org/observations/66303223",
+          "distanceKm": 0.5481972624972187
+        },
+        {
+          "commonName": "Picochueco Vientre Canela",
+          "scientificName": "Diglossa baritula",
+          "observedAt": "2020-04-01",
+          "sourceUrl": "https://www.inaturalist.org/observations/41212652",
+          "distanceKm": 0.5607699864278171
+        },
+        {
+          "commonName": "Jilguerito Dominico",
+          "scientificName": "Spinus psaltria",
+          "observedAt": "2021-10-25",
+          "sourceUrl": "https://www.inaturalist.org/observations/99394288",
+          "distanceKm": 0.5620637481654014
+        }
+      ]
+    }
+  ]
+}

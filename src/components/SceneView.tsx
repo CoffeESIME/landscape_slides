@@ -1,3 +1,4 @@
+import CampusExplorer from './CampusExplorer';
 import { dimensions } from '../data/narrative';
 import { metadata } from '../data/presentation';
 import { biodiversity, localBird, counts } from '../data/biodiversity';
@@ -45,7 +46,7 @@ export default function SceneView({scene,step,reduced,onStart,onPlace,onReplay}:
  const current=scene.steps[step];const [choice,setChoice]=useState<number|null>(null);
  if(scene.layout==='opening')return <div className="opening-content"><div className="opening-eyebrow"><span/> UNA INVITACIÓN A DETENERSE</div><h1>Entre concreto:<br/><em>una flor y un canto</em></h1><p className="opening-subtitle">{metadata.subtitle}</p><button className="start-button" onClick={onStart}>Comenzar el recorrido <span>↗</span></button></div>;
  if(scene.layout==='bird-reveal')return <BirdReveal {...localBird} step={step} onReplay={onReplay}/>;
- if(scene.layout==='radius-map')return <BiodiversityRadiusMap {...biodiversity} radii={[1,2,5]} counts={counts}/>;
+ if(scene.layout==='radius-map')return <CampusExplorer/>;
  if(scene.layout==='place-layers')return <PlaceLayers step={step} observedLayers={observedLayers} investigationLayers={investigationLayers}/>;
  if(scene.layout==='community-flow')return <CommunityScienceFlow step={step}/>;
  if(scene.layout==='observation')return <ObservationRecord step={step} image={localBird.image}/>;

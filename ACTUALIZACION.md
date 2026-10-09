@@ -1,3 +1,23 @@
+# Revisión del 8 de octubre de 2026
+
+- Campus confirmado: **UAM Cuajimalpa**, centro del proyecto `aves_zona`: **19.3525, −99.2824**.
+- La lámina de biodiversidad utiliza **capturas reales de Islas Vivas**, con radios de 1, 2 y 5 km. Los rótulos reproducen los conteos visibles en las capturas finales: **48 / 85 / 179**. Fuente: iNaturalist, aves, grado de investigación, todo el periodo. Son registros históricos, no un censo actual.
+- Se incorpora una vista con ocho especies por radio, distancias en línea recta y enlaces a sus observaciones. La selección de 5 km procede de los 1000 registros cargados por la app y se identifica como limitada.
+- Capturas y datos se incluyen en la copia offline; el enlace **Abrir explorador completo** abre la app local en el puerto 3011.
+- Los conteos de la primera respuesta del servidor (47 / 85 / 177) diferían de la interfaz capturada. Se conservaron las respuestas originales en `research/uam-app/`; los rótulos finales coinciden con los archivos `metrics-1.txt`, `metrics-2.txt`, `metrics-5.txt` y las capturas.
+- Eliminado el paso de video de Asombro. Se conserva la fotografía y la pregunta.
+- Eliminados los dos pasos negros de Miedo: eran pausas manuales previas al revelado. Ahora aparecen directamente las fotografías de tormenta, precipicio, serpiente y mar; se mejoró su luminosidad.
+- La presentación inicia con controles, número de lámina, progreso y pasos ocultos. **H o doble clic** muestran las herramientas; **S** abre preferencias y **R** las fuentes. La entrada a fullscreen vuelve a ocultar herramientas. Los atajos de navegación siguen activos.
+- La secuencia queda en **35 escenas y 130 pasos**.
+
+Archivos principales: `src/App.tsx`, `src/data/presentation.ts`, `src/components/CampusExplorer.tsx`, `src/data/campus-explorer.json`, `src/data/biodiversity.ts`, `src/data/local-observations.json`, `src/data/sources.ts`, `src/components/SceneView.tsx`, `src/styles/main.css`, `public/bibliography/radius-counts.json`, `public/bibliography/media.json`, `public/images/uam-app/`, tests y documentación.
+
+Captura reproducible: `scripts/capture_uam_radii.mjs`, con la app de aves funcionando en 3011. Evidencias: `research/uam-app/`. No se copiaron claves API a la presentación.
+
+El informe siguiente documenta la versión del 3 de octubre; sus conteos y pendientes de identificación del campus quedan sustituidos por esta revisión.
+
+---
+
 # Informe de actualización
 
 **Entre concreto: una flor y un canto** · 3 de octubre de 2026

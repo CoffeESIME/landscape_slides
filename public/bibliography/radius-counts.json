@@ -1,14 +1,14 @@
 {
   "1": {
-    "count": 40,
-    "url": "https://api.inaturalist.org/v1/observations/species_counts?lat=19.35&lng=-99.2833333333&radius=1&taxon_id=3&quality_grade=research&d2=2026-10-03&locale=es&per_page=200&rank=species&geo=True"
+    "count": 48,
+    "url": "http://localhost:3011/?radius=1&taxon=birds&quality=research&sources=inaturalist&view=points"
   },
   "2": {
-    "count": 88,
-    "url": "https://api.inaturalist.org/v1/observations/species_counts?lat=19.35&lng=-99.2833333333&radius=2&taxon_id=3&quality_grade=research&d2=2026-10-03&locale=es&per_page=200&rank=species&geo=True"
+    "count": 85,
+    "url": "http://localhost:3011/?radius=2&taxon=birds&quality=research&sources=inaturalist&view=points"
   },
   "5": {
-    "count": 176,
-    "url": "https://api.inaturalist.org/v1/observations/species_counts?lat=19.35&lng=-99.2833333333&radius=5&taxon_id=3&quality_grade=research&d2=2026-10-03&locale=es&per_page=200&rank=species&geo=True"
+    "count": 179,
+    "url": "http://localhost:3011/?radius=5&taxon=birds&quality=research&sources=inaturalist&view=points"
   }
 }

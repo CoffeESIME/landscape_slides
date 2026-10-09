@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "center": {
+      "lat": 19.3525,
+      "lng": -99.2824,
+      "label": "UAM Cuajimalpa"
+    },
+    "radiusKm": 1,
+    "filters": {
+      "radius": 1,
+      "taxon": "birds",
+      "quality": "research",
+      "sources": [
+        "inaturalist"
+      ]
+    },
+    "source": "iNaturalist",
+    "providers": [
+      {
+        "id": "inaturalist",
+        "label": "iNaturalist",
+        "totalAvailable": 47,
+        "returned": 12,
+        "truncated": true
+      }
+    ],
+    "generatedAt": "2026-10-08T21:47:45.980Z",
+    "totalAvailable": 47,
+    "returned": 12,
+    "truncated": true,
+    "warnings": []
+  },
+  "totalSpecies": 47,
+  "species": [
+    {
+      "taxonId": 9833,
+      "source": "inaturalist",
+      "sourceLabel": "iNaturalist",
+      "commonName": "Picochueco Vientre Canela",
+      "scientificName": "Diglossa baritula",
+      "iconicGroup": "birds",
+      "observationCount": 6,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/148222642/medium.jpeg",
+      "photoAttribution": "(c) Carlos Alberto Solís Sarmiento, some rights reserved (CC BY-NC), uploaded by Carlos Alberto Solís Sarmiento",
+      "photoLicense": "cc-by-nc",
+      "taxonUrl": "https://www.inaturalist.org/taxa/9833"
+    },
+    {
+      "taxonId": 145289,
+      "source": "inaturalist",
+      "sourceLabel": "iNaturalist",
+      "commonName": "Rascador Viejita",
+      "scientificName": "Melozone fusca",
+      "iconicGroup": "birds",
+      "observationCount": 6,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/52588417/medium.jpeg",
+      "photoAttribution": "(c) Gera Guzman, some rights reserved (CC BY-NC), uploaded by Gera Guzman",
+      "photoLicense": "cc-by-nc",
+      "taxonUrl": "https://www.inaturalist.org/taxa/145289"
+    },
+    {
+      "taxonId": 9100,
+      "source": "inaturalist",
+      "sourceLabel": "iNaturalist",
+      "commonName": "Gorrión cantor",
+      "scientificName": "Melospiza melodia",
+      "iconicGroup": "birds",
+      "observationCount": 5,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/104749271/medium.jpg",
+      "photoAttribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+      "photoLicense": "cc-by-nc",
+      "taxonUrl": "https://www.inaturalist.org/taxa/9100"
+    },
+    {
+      "taxonId": 10702,
+      "source": "inaturalist",
+      "sourceLabel": "iNaturalist",
+      "commonName": "Zacatonero Serrano",
+      "scientificName": "Oriturus superciliosus",
+      "iconicGroup": "birds",
+      "observationCount": 5,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1598023/medium.jpg",
+      "photoAttribution": "(c) davy, some rights reserved (CC BY-NC), uploaded by davy",
+      "photoLicense": "cc-by-nc",
+      "taxonUrl": "https://www.inaturalist.org/taxa/10702"
+    },
+    {
+      "taxonId": 12727,
+      "source": "inaturalist",
+      "sourceLabel": "iNaturalist",
+      "commonName": "Mirlo primavera",
+      "scientificName": "Turdus migratorius",
+      "iconicGroup": "birds",
+      "observationCount": 5,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/34859026/medium.jpg",
+      "photoAttribution": "(c) John D Reynolds, some rights reserved (CC BY-NC), uploaded by John D Reynolds",
+      "photoLicense": "cc-by-nc",
+      "taxonUrl": "https://www.inaturalist.org/taxa/12727"
+    },
+    {
+      "taxonId": 13858,
+      "source": "inaturalist",
+      "sourceLabel": "iNaturalist",
+      "commonName": "Gorrión Doméstico",
+      "scientificName": "Passer domesticus",
+      "iconicGroup": "birds",
+      "observationCount": 5,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/4608133/medium.jpg",
+      "photoAttribution": "(c) Ximo Galarza, some rights reserved (CC BY-NC-SA)",
+      "photoLicense": "cc-by-nc-sa",
+      "taxonUrl": "https://www.inaturalist.org/taxa/13858"
+    },
+    {
+      "taxonId": 7266,
+      "source": "inaturalist",
+      "sourceLabel": "iNaturalist",
+      "commonName": "Sastrecillo",
+      "scientificName": "Psaltriparus minimus",
+      "iconicGroup": "birds",
+      "observationCount": 4,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/111125701/medium.jpg",
+      "photoAttribution": "(c) Kevin Krebs, some rights reserved (CC BY-NC-SA)",
+      "photoLicense": "cc-by-nc-sa",
+      "taxonUrl": "https://www.inaturalist.org/taxa/7266"
+    },
+    {
+      "taxonId": 14912,
+      "source": "inaturalist",
+      "sourceLabel": "iNaturalist",
+      "commonName": "Cuicacoche Pico Curvo",
+      "scientificName": "Toxostoma curvirostre",
+      "iconicGroup": "birds",
+      "observationCount": 4,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/235837/medium.jpg",
+      "photoAttribution": "(c) Tony Morris, some rights reserved (CC BY-NC)",
+      "photoLicense": "cc-by-nc",
+      "taxonUrl": "https://www.inaturalist.org/taxa/14912"
+    },
+    {
+      "taxonId": 16447,
+      "source": "inaturalist",
+      "sourceLabel": "iNaturalist",
+      "commonName": "Papamoscas cardenalito",
+      "scientificName": "Pyrocephalus rubinus",
+      "iconicGroup": "birds",
+      "observationCount": 4,
+      "photoUrl": null,
+      "photoAttribution": null,
+      "photoLicense": null,
+      "taxonUrl": "https://www.inaturalist.org/taxa/16447"
+    },
+    {
+      "taxonId": 3017,
+      "source": "inaturalist",
+      "sourceLabel": "iNaturalist",
+      "commonName": "Paloma Común",
+      "scientificName": "Columba livia",
+      "iconicGroup": "birds",
+      "observationCount": 3,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/466776975/medium.jpg",
+      "photoAttribution": "(c) Birds of Gilgit-Baltistan, some rights reserved (CC BY-SA)",
+      "photoLicense": "cc-by-sa",
+      "taxonUrl": "https://www.inaturalist.org/taxa/3017"
+    },
+    {
+      "taxonId": 6141,
+      "source": "inaturalist",
+      "sourceLabel": "iNaturalist",
+      "commonName": "Colibrí pico ancho norteño",
+      "scientificName": "Cynanthus latirostris",
+      "iconicGroup": "birds",
+      "observationCount": 3,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/11420705/medium.jpg",
+      "photoAttribution": "(c) Christian Schwarz, some rights reserved (CC BY-NC), uploaded by Christian Schwarz",
+      "photoLicense": "cc-by-nc",
+      "taxonUrl": "https://www.inaturalist.org/taxa/6141"
+    },
+    {
+      "taxonId": 9457,
+      "source": "inaturalist",
+      "sourceLabel": "iNaturalist",
+      "commonName": "Pavito Alas Negras",
+      "scientificName": "Myioborus miniatus",
+      "iconicGroup": "birds",
+      "observationCount": 3,
+      "photoUrl": null,
+      "photoAttribution": null,
+      "photoLicense": null,
+      "taxonUrl": "https://www.inaturalist.org/taxa/9457"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+import {chromium} from '@playwright/test';
+import {mkdir,writeFile} from 'node:fs/promises';
+const b=await chromium.launch({headless:true,executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE||process.env.LOCALAPPDATA+'/ms-playwright/chromium-1234/chrome-win64/chrome.exe',args:['--enable-unsafe-swiftshader']});
+const p=await b.newPage({viewport:{width:1440,height:1100},deviceScaleFactor:1});
+await mkdir('research/uam-app',{recursive:true});await mkdir('public/images/uam-app',{recursive:true});
+const url='http://localhost:3011/?radius=1&taxon=birds&quality=research&sources=inaturalist&view=points';
+await p.goto(url,{timeout:120000});
+const responses=await Promise.all(['summary','observations','species'].map(async endpoint=>{const r=await p.request.get('http://localhost:3011/api/biodiversity/'+endpoint+'?radius=1&taxon=birds&quality=research&sources=inaturalist',{timeout:120000});const j=await r.json();await writeFile('research/uam-app/'+endpoint+'.json',JSON.stringify(j,null,2));return {endpoint,status:r.status(),summary:endpoint==='summary'?j:undefined,meta:j.meta};}));
+console.log(JSON.stringify(responses));
+await p.waitForFunction(()=>{const m=document.querySelector('.metrics-strip');return m&&!m.classList.contains('is-loading')},{timeout:120000});
+await p.waitForTimeout(7000);
+await p.locator('.map-section').screenshot({path:'public/images/uam-app/mapa-1km.png'});
+await p.screenshot({path:'research/uam-app/page.png',fullPage:true});
+console.log((await p.locator('body').innerText()).slice(-8500));
+await b.close();

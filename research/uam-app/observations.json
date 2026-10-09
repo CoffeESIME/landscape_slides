@@ -1,0 +1,3083 @@
+{
+  "meta": {
+    "center": {
+      "lat": 19.3525,
+      "lng": -99.2824,
+      "label": "UAM Cuajimalpa"
+    },
+    "radiusKm": 1,
+    "filters": {
+      "radius": 1,
+      "taxon": "birds",
+      "quality": "research",
+      "sources": [
+        "inaturalist"
+      ]
+    },
+    "source": "iNaturalist",
+    "providers": [
+      {
+        "id": "inaturalist",
+        "label": "iNaturalist",
+        "totalAvailable": 105,
+        "returned": 105,
+        "truncated": false
+      }
+    ],
+    "generatedAt": "2026-10-08T21:47:48.230Z",
+    "totalAvailable": 105,
+    "returned": 105,
+    "truncated": false,
+    "warnings": []
+  },
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": 6663402,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.279185235,
+            19.3573219362
+          ]
+        },
+        "properties": {
+          "id": 6663402,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2017-06-14",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Saltapared cola larga",
+          "scientificName": "Thryomanes bewickii",
+          "taxonId": 7576,
+          "observerName": "Manuel Nevárez",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "http://conabio.inaturalist.org/observations/6663402"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 17609947,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2761754617,
+            19.3567032307
+          ]
+        },
+        "properties": {
+          "id": 17609947,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2018-10-12",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Estornino Pinto",
+          "scientificName": "Sturnus vulgaris",
+          "taxonId": 14850,
+          "observerName": "Gonzalo Sierra",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/26817802/medium.jpg",
+          "photoAttribution": "(c) Gonzalo Sierra, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/17609947"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 33697980,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.282681251,
+            19.3548888963
+          ]
+        },
+        "properties": {
+          "id": 33697980,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2019-10-01",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Carpintero bellotero",
+          "scientificName": "Melanerpes formicivorus",
+          "taxonId": 18209,
+          "observerName": "Jose Eduardo M",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/33697980"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 36831785,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.27385833,
+            19.355545
+          ]
+        },
+        "properties": {
+          "id": 36831785,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2019-12-15",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Papamoscas cardenalito",
+          "scientificName": "Pyrocephalus rubinus",
+          "taxonId": 16447,
+          "observerName": "icebombom",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/58287041/medium.jpg",
+          "photoAttribution": "(c) icebombom, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/36831785"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 37905632,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.277090795,
+            19.3514470951
+          ]
+        },
+        "properties": {
+          "id": 37905632,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2020-01-16",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Gorrión cantor",
+          "scientificName": "Melospiza melodia",
+          "taxonId": 9100,
+          "observerName": "snancy",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/60162436/medium.jpg",
+          "photoAttribution": "(c) snancy, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/37905632"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 37905804,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2770673892,
+            19.351564618
+          ]
+        },
+        "properties": {
+          "id": 37905804,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2020-01-11",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Chipe Oliváceo",
+          "scientificName": "Leiothlypis celata",
+          "taxonId": 979757,
+          "observerName": "snancy",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/60162636/medium.jpg",
+          "photoAttribution": "(c) snancy, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/37905804"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 39462521,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.277236,
+            19.359926
+          ]
+        },
+        "properties": {
+          "id": 39462521,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2020-03-02",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Zanate mayor",
+          "scientificName": "Quiscalus mexicanus",
+          "taxonId": 9607,
+          "observerName": "danieltapnos",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/62613255/medium.jpeg",
+          "photoAttribution": "(c) danieltapnos, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/39462521"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 40101069,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2777933333,
+            19.360075
+          ]
+        },
+        "properties": {
+          "id": 40101069,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2020-03-13",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Colibrí pico ancho norteño",
+          "scientificName": "Cynanthus latirostris",
+          "taxonId": 6141,
+          "observerName": "",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/63690736/medium.jpeg",
+          "photoAttribution": "(c) gustavojv, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/40101069"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 40101071,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.27719,
+            19.3597333333
+          ]
+        },
+        "properties": {
+          "id": 40101071,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2020-03-13",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Picochueco Vientre Canela",
+          "scientificName": "Diglossa baritula",
+          "taxonId": 9833,
+          "observerName": "",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/63690768/medium.jpeg",
+          "photoAttribution": "(c) gustavojv, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/40101071"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 41212538,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2770967167,
+            19.3514158846
+          ]
+        },
+        "properties": {
+          "id": 41212538,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2020-04-01",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Piranga capucha roja",
+          "scientificName": "Piranga ludoviciana",
+          "taxonId": 9919,
+          "observerName": "snancy",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/65358692/medium.jpg",
+          "photoAttribution": "(c) snancy, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/41212538"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 41212652,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2773326122,
+            19.3508955459
+          ]
+        },
+        "properties": {
+          "id": 41212652,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2020-04-01",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Picochueco Vientre Canela",
+          "scientificName": "Diglossa baritula",
+          "taxonId": 9833,
+          "observerName": "snancy",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/65359010/medium.jpg",
+          "photoAttribution": "(c) snancy, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/41212652"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 41212765,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2783661576,
+            19.3505043054
+          ]
+        },
+        "properties": {
+          "id": 41212765,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2020-04-01",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Calandria Cejas Naranjas",
+          "scientificName": "Icterus bullockii",
+          "taxonId": 9357,
+          "observerName": "snancy",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/65359231/medium.jpg",
+          "photoAttribution": "(c) snancy, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/41212765"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 52086987,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2828365596,
+            19.3507156351
+          ]
+        },
+        "properties": {
+          "id": 52086987,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2020-07-05",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Zafiro Orejas Blancas",
+          "scientificName": "Basilinna leucotis",
+          "taxonId": 1289674,
+          "observerName": "Emilio Minichini",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/52086987"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 55806635,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2788217088,
+            19.3454902462
+          ]
+        },
+        "properties": {
+          "id": 55806635,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2020-07-31",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Rascador Viejita",
+          "scientificName": "Melozone fusca",
+          "taxonId": 145289,
+          "observerName": "Javier Mendoza",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/55806635"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 66303223,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.282425,
+            19.35743
+          ]
+        },
+        "properties": {
+          "id": 66303223,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2020-11-26",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Sastrecillo",
+          "scientificName": "Psaltriparus minimus",
+          "taxonId": 7266,
+          "observerName": "Carlos Mancera",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/66303223"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 66303299,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2822603856,
+            19.3577190516
+          ]
+        },
+        "properties": {
+          "id": 66303299,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2020-11-26",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Mirlo primavera",
+          "scientificName": "Turdus migratorius",
+          "taxonId": 12727,
+          "observerName": "Carlos Mancera",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/66303299"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 66303332,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2821312599,
+            19.3573591482
+          ]
+        },
+        "properties": {
+          "id": 66303332,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2020-11-26",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Papamoscas cardenalito",
+          "scientificName": "Pyrocephalus rubinus",
+          "taxonId": 16447,
+          "observerName": "Carlos Mancera",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/66303332"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 69213302,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.274703611,
+            19.3551556009
+          ]
+        },
+        "properties": {
+          "id": 69213302,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-02-07",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Papamoscas cardenalito",
+          "scientificName": "Pyrocephalus rubinus",
+          "taxonId": 16447,
+          "observerName": "Pablo Cano",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/112262077/medium.jpg",
+          "photoAttribution": "(c) Pablo Cano, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/69213302"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 70265162,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2742824747,
+            19.3555327518
+          ]
+        },
+        "properties": {
+          "id": 70265162,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-02-27",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "paloma doméstica",
+          "scientificName": "Columba livia domestica",
+          "taxonId": 122767,
+          "observerName": "Pablo Cano",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/114191382/medium.jpg",
+          "photoAttribution": "(c) Pablo Cano, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/70265162"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 70265323,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2749808252,
+            19.3552227622
+          ]
+        },
+        "properties": {
+          "id": 70265323,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-02-27",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Papamoscas negro",
+          "scientificName": "Sayornis nigricans",
+          "taxonId": 17013,
+          "observerName": "Pablo Cano",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/114191631/medium.jpg",
+          "photoAttribution": "(c) Pablo Cano, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/70265323"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 70265498,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2743917575,
+            19.3554002326
+          ]
+        },
+        "properties": {
+          "id": 70265498,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-02-27",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Gorrión cantor",
+          "scientificName": "Melospiza melodia",
+          "taxonId": 9100,
+          "observerName": "Pablo Cano",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/114192021/medium.jpg",
+          "photoAttribution": "(c) Pablo Cano, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/70265498"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 84438433,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2735674593,
+            19.3555240717
+          ]
+        },
+        "properties": {
+          "id": 84438433,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-06-11",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Cuicacoche Pico Curvo",
+          "scientificName": "Toxostoma curvirostre",
+          "taxonId": 14912,
+          "observerName": "Álvaro San José Elizundia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/138781821/medium.jpg",
+          "photoAttribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/84438433"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 90183325,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2917068721,
+            19.3533061767
+          ]
+        },
+        "properties": {
+          "id": 90183325,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-08-01",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Gorrión cantor",
+          "scientificName": "Melospiza melodia",
+          "taxonId": 9100,
+          "observerName": "Jade",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/149015984/medium.jpeg",
+          "photoAttribution": "(c) Jade, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/90183325"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 92458483,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2813774,
+            19.3440134998
+          ]
+        },
+        "properties": {
+          "id": 92458483,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-08-24",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Jilguerito Dominico",
+          "scientificName": "Spinus psaltria",
+          "taxonId": 145308,
+          "observerName": "snancy",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/153093976/medium.jpg",
+          "photoAttribution": "(c) snancy, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/92458483"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 96148099,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2734668866,
+            19.3554297815
+          ]
+        },
+        "properties": {
+          "id": 96148099,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-09-25",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Papamoscas negro",
+          "scientificName": "Sayornis nigricans",
+          "taxonId": 17013,
+          "observerName": "Martin Gil Gallo",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/159693314/medium.jpg",
+          "photoAttribution": "(c) Martin Gil Gallo, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/96148099"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 98325263,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2741911343,
+            19.3532212825
+          ]
+        },
+        "properties": {
+          "id": 98325263,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-10-15",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Chorlo tildío",
+          "scientificName": "Charadrius vociferus",
+          "taxonId": 4793,
+          "observerName": "Germán",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/163676160/medium.jpeg",
+          "photoAttribution": "(c) Germán, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/98325263"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 99294433,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2770633333,
+            19.3519066667
+          ]
+        },
+        "properties": {
+          "id": 99294433,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-10-24",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Calandria Dorso Negro Menor",
+          "scientificName": "Icterus cucullatus",
+          "taxonId": 9319,
+          "observerName": "snancy",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165496709/medium.jpg",
+          "photoAttribution": "(c) snancy, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/99294433"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 99295021,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.277004044,
+            19.3514228757
+          ]
+        },
+        "properties": {
+          "id": 99295021,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-10-24",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Chipe Lores Negros",
+          "scientificName": "Geothlypis tolmiei",
+          "taxonId": 145223,
+          "observerName": "snancy",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165497587/medium.jpg",
+          "photoAttribution": "(c) snancy, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/99295021"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 99295267,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.27739819,
+            19.3512741027
+          ]
+        },
+        "properties": {
+          "id": 99295267,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-10-21",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Carpintero bellotero",
+          "scientificName": "Melanerpes formicivorus",
+          "taxonId": 18209,
+          "observerName": "snancy",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165498085/medium.jpg",
+          "photoAttribution": "(c) snancy, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/99295267"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 99393667,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2770490207,
+            19.351498179
+          ]
+        },
+        "properties": {
+          "id": 99393667,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-10-25",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Piranga roja",
+          "scientificName": "Piranga rubra",
+          "taxonId": 9915,
+          "observerName": "snancy",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165677013/medium.jpg",
+          "photoAttribution": "(c) snancy, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/99393667"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 99394288,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2771516667,
+            19.351485
+          ]
+        },
+        "properties": {
+          "id": 99394288,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-10-25",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Jilguerito Dominico",
+          "scientificName": "Spinus psaltria",
+          "taxonId": 145308,
+          "observerName": "snancy",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165678001/medium.jpg",
+          "photoAttribution": "(c) snancy, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/99394288"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 99415250,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2764631323,
+            19.350806326
+          ]
+        },
+        "properties": {
+          "id": 99415250,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-10-25",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Piranga roja",
+          "scientificName": "Piranga rubra",
+          "taxonId": 9915,
+          "observerName": "snancy",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165718045/medium.jpg",
+          "photoAttribution": "(c) snancy, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/99415250"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 99663069,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2771622989,
+            19.3511504695
+          ]
+        },
+        "properties": {
+          "id": 99663069,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-10-28",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Piranga capucha roja",
+          "scientificName": "Piranga ludoviciana",
+          "taxonId": 9919,
+          "observerName": "snancy",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/166187735/medium.jpg",
+          "photoAttribution": "(c) snancy, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/99663069"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 109107690,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2823730409,
+            19.3563068761
+          ]
+        },
+        "properties": {
+          "id": 109107690,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2021-10-15",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Gorrión Doméstico",
+          "scientificName": "Passer domesticus",
+          "taxonId": 13858,
+          "observerName": "Carlos Galindo-Leal",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/183829719/medium.jpeg",
+          "photoAttribution": "(c) Carlos Galindo-Leal, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/109107690"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 114361640,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2739598099,
+            19.3556758701
+          ]
+        },
+        "properties": {
+          "id": 114361640,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2022-05-01",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Mirlo primavera",
+          "scientificName": "Turdus migratorius",
+          "taxonId": 12727,
+          "observerName": "Pablo Cano",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/193123496/medium.jpg",
+          "photoAttribution": "(c) Pablo Cano, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/114361640"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 126211854,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2883055023,
+            19.3552077447
+          ]
+        },
+        "properties": {
+          "id": 126211854,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2022-07-12",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Pinzón mexicano",
+          "scientificName": "Haemorhous mexicanus",
+          "taxonId": 199840,
+          "observerName": "Anayeli GE",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/214123306/medium.jpeg",
+          "photoAttribution": "(c) Anayeli GE, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/126211854"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 126235075,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2844989658,
+            19.356999917
+          ]
+        },
+        "properties": {
+          "id": 126235075,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2022-07-12",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Pinzón mexicano",
+          "scientificName": "Haemorhous mexicanus",
+          "taxonId": 199840,
+          "observerName": "Anayeli GE",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/214163804/medium.jpeg",
+          "photoAttribution": "(c) Anayeli GE, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/126235075"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 136871436,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2733447193,
+            19.3551849674
+          ]
+        },
+        "properties": {
+          "id": 136871436,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2022-09-27",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Pato mexicano",
+          "scientificName": "Anas diazi",
+          "taxonId": 827372,
+          "observerName": "Miguel Ángel Mota Ayala",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/233662707/medium.jpeg",
+          "photoAttribution": "(c) Miguel Ángel Mota Ayala, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/136871436"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 153254010,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2862333333,
+            19.3502716667
+          ]
+        },
+        "properties": {
+          "id": 153254010,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2020-06-09",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Picochueco Vientre Canela",
+          "scientificName": "Diglossa baritula",
+          "taxonId": 9833,
+          "observerName": "unmonotiti",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/264670480/medium.jpg",
+          "photoAttribution": "(c) unmonotiti, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/153254010"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 186056320,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2866763,
+            19.3567088
+          ]
+        },
+        "properties": {
+          "id": 186056320,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2023-10-03",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Colibrí pico ancho norteño",
+          "scientificName": "Cynanthus latirostris",
+          "taxonId": 6141,
+          "observerName": "Ivan Ortiz",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/186056320"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 189141951,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2801107159,
+            19.3531765548
+          ]
+        },
+        "properties": {
+          "id": 189141951,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2023-10-27",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Chipe de Townsend",
+          "scientificName": "Setophaga townsendi",
+          "taxonId": 145255,
+          "observerName": "imeldarangel",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/189141951"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 194526634,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2737973481,
+            19.3552930517
+          ]
+        },
+        "properties": {
+          "id": 194526634,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2023-12-20",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Chipe cabeza amarilla",
+          "scientificName": "Setophaga occidentalis",
+          "taxonId": 145256,
+          "observerName": "Álvaro San José Elizundia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/341958154/medium.jpeg",
+          "photoAttribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/194526634"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 194526722,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2738701031,
+            19.3553246844
+          ]
+        },
+        "properties": {
+          "id": 194526722,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2023-12-20",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Mirlo primavera",
+          "scientificName": "Turdus migratorius",
+          "taxonId": 12727,
+          "observerName": "Álvaro San José Elizundia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/341958290/medium.jpeg",
+          "photoAttribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/194526722"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 194532327,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2733420432,
+            19.3551080004
+          ]
+        },
+        "properties": {
+          "id": 194532327,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2023-12-20",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Golondrina Alas Aserradas",
+          "scientificName": "Stelgidopteryx serripennis",
+          "taxonId": 11970,
+          "observerName": "Álvaro San José Elizundia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/341971348/medium.jpeg",
+          "photoAttribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/194532327"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 194620914,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2770527778,
+            19.3597805556
+          ]
+        },
+        "properties": {
+          "id": 194620914,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2023-12-21",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Colibrí berilo",
+          "scientificName": "Saucerottia beryllina",
+          "taxonId": 1289657,
+          "observerName": "Álvaro San José Elizundia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/342150601/medium.jpeg",
+          "photoAttribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/194620914"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 194623518,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2733222222,
+            19.3540638889
+          ]
+        },
+        "properties": {
+          "id": 194623518,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2023-12-21",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Capulinero gris",
+          "scientificName": "Ptiliogonys cinereus",
+          "taxonId": 367678,
+          "observerName": "Álvaro San José Elizundia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/342153095/medium.jpeg",
+          "photoAttribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/194623518"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 194623519,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2734972222,
+            19.3555055556
+          ]
+        },
+        "properties": {
+          "id": 194623519,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2023-12-21",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Papamoscas negro",
+          "scientificName": "Sayornis nigricans",
+          "taxonId": 17013,
+          "observerName": "Álvaro San José Elizundia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/342153134/medium.jpeg",
+          "photoAttribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/194623519"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 194625246,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2735277778,
+            19.3545
+          ]
+        },
+        "properties": {
+          "id": 194625246,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2023-12-21",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Ocotero enmascarado",
+          "scientificName": "Peucedramus taeniatus",
+          "taxonId": 9312,
+          "observerName": "Álvaro San José Elizundia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/342161584/medium.jpeg",
+          "photoAttribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/194625246"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 194891942,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2747027778,
+            19.3547527778
+          ]
+        },
+        "properties": {
+          "id": 194891942,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2023-12-24",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Zacatonero Serrano",
+          "scientificName": "Oriturus superciliosus",
+          "taxonId": 10702,
+          "observerName": "Álvaro San José Elizundia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/342707490/medium.jpeg",
+          "photoAttribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/194891942"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 194891944,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2744611111,
+            19.3548555556
+          ]
+        },
+        "properties": {
+          "id": 194891944,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2023-12-24",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Picochueco Vientre Canela",
+          "scientificName": "Diglossa baritula",
+          "taxonId": 9833,
+          "observerName": "Álvaro San José Elizundia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/342707501/medium.jpeg",
+          "photoAttribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/194891944"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 195037164,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2757555556,
+            19.355025
+          ]
+        },
+        "properties": {
+          "id": 195037164,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2023-12-24",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Piranga roja",
+          "scientificName": "Piranga rubra",
+          "taxonId": 9915,
+          "observerName": "Álvaro San José Elizundia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/343009881/medium.jpeg",
+          "photoAttribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/195037164"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 195192604,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.274825,
+            19.3552027778
+          ]
+        },
+        "properties": {
+          "id": 195192604,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2023-12-28",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Colibrí pico ancho norteño",
+          "scientificName": "Cynanthus latirostris",
+          "taxonId": 6141,
+          "observerName": "Álvaro San José Elizundia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/343321610/medium.jpeg",
+          "photoAttribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/195192604"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 195688306,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.28,
+            19.35
+          ]
+        },
+        "properties": {
+          "id": 195688306,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2023-12-30",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Papamoscas cardenalito",
+          "scientificName": "Pyrocephalus rubinus",
+          "taxonId": 16447,
+          "observerName": "Elsa Valiente",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/344330328/medium.jpeg",
+          "photoAttribution": "(c) Elsa Valiente, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/195688306"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 197102782,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2752833333,
+            19.3546972222
+          ]
+        },
+        "properties": {
+          "id": 197102782,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2024-01-16",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Zorzal Cola Canela",
+          "scientificName": "Catharus guttatus",
+          "taxonId": 12890,
+          "observerName": "Álvaro San José Elizundia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/347064134/medium.jpeg",
+          "photoAttribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/197102782"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 203237407,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2832273245,
+            19.3502447135
+          ]
+        },
+        "properties": {
+          "id": 203237407,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2024-03-20",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Pinzón mexicano",
+          "scientificName": "Haemorhous mexicanus",
+          "taxonId": 199840,
+          "observerName": "Orange Space Cat",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/359053595/medium.jpeg",
+          "photoAttribution": "(c) Orange Space Cat, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/203237407"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 208693159,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2824833468,
+            19.3526491706
+          ]
+        },
+        "properties": {
+          "id": 208693159,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2024-04-22",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Zacatonero Serrano",
+          "scientificName": "Oriturus superciliosus",
+          "taxonId": 10702,
+          "observerName": "Orange Space Cat",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/369271323/medium.jpeg",
+          "photoAttribution": "(c) Orange Space Cat, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/208693159"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 213978256,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2824136093,
+            19.3522692554
+          ]
+        },
+        "properties": {
+          "id": 213978256,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2024-05-06",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "paloma doméstica",
+          "scientificName": "Columba livia domestica",
+          "taxonId": 122767,
+          "observerName": "Orange Space Cat",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/378177746/medium.jpeg",
+          "photoAttribution": "(c) Orange Space Cat, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/213978256"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 214870047,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2828524858,
+            19.3507818523
+          ]
+        },
+        "properties": {
+          "id": 214870047,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2024-05-08",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Mirlo primavera",
+          "scientificName": "Turdus migratorius",
+          "taxonId": 12727,
+          "observerName": "Orange Space Cat",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/379834971/medium.jpeg",
+          "photoAttribution": "(c) Orange Space Cat, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/214870047"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 220130730,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2836903948,
+            19.3452617924
+          ]
+        },
+        "properties": {
+          "id": 220130730,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2024-06-02",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Carpintero bellotero",
+          "scientificName": "Melanerpes formicivorus",
+          "taxonId": 18209,
+          "observerName": "Moi CA",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/389703551/medium.jpg",
+          "photoAttribution": "(c) Moi CA, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/220130730"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 225130358,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.273751659,
+            19.3551603881
+          ]
+        },
+        "properties": {
+          "id": 225130358,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2024-06-11",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Golondrina tijereta",
+          "scientificName": "Hirundo rustica",
+          "taxonId": 11901,
+          "observerName": "Álvaro San José Elizundia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/399107249/medium.jpeg",
+          "photoAttribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/225130358"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 236663253,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2855188036,
+            19.3568878307
+          ]
+        },
+        "properties": {
+          "id": 236663253,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2024-08-17",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Mulato azul",
+          "scientificName": "Melanotis caerulescens",
+          "taxonId": 15035,
+          "observerName": "León Valdez",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/236663253"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 238641219,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2854823963,
+            19.3568825566
+          ]
+        },
+        "properties": {
+          "id": 238641219,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2024-08-29",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Pavito Alas Negras",
+          "scientificName": "Myioborus miniatus",
+          "taxonId": 9457,
+          "observerName": "León Valdez",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/238641219"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 261363967,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2747626901,
+            19.3549682462
+          ]
+        },
+        "properties": {
+          "id": 261363967,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2025-01-22",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Chorlo tildío",
+          "scientificName": "Charadrius vociferus",
+          "taxonId": 4793,
+          "observerName": "lilianasantiago",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/469527904/medium.jpeg",
+          "photoAttribution": "(c) lilianasantiago, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/261363967"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 261473011,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2863634,
+            19.3564201
+          ]
+        },
+        "properties": {
+          "id": 261473011,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2025-02-09",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Picochueco Vientre Canela",
+          "scientificName": "Diglossa baritula",
+          "taxonId": 9833,
+          "observerName": "Rodo Tabo",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/261473011"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 284824660,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2828903197,
+            19.3466911314
+          ]
+        },
+        "properties": {
+          "id": 284824660,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2025-05-28",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Mirlo primavera",
+          "scientificName": "Turdus migratorius",
+          "taxonId": 12727,
+          "observerName": "Mar M. Aguilar",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/284824660"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 285533733,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2800925038,
+            19.3565383093
+          ]
+        },
+        "properties": {
+          "id": 285533733,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2025-05-25",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Rascador Gorra Canela",
+          "scientificName": "Atlapetes pileatus",
+          "taxonId": 10331,
+          "observerName": "damiancorena",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/285533733"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 298942587,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.283532212,
+            19.3512387713
+          ]
+        },
+        "properties": {
+          "id": 298942587,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2025-07-18",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Zacatonero corona rayada",
+          "scientificName": "Peucaea ruficauda",
+          "taxonId": 73178,
+          "observerName": "Fasc SC",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/538533115/medium.jpg",
+          "photoAttribution": "(c) Fasc SC, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/298942587"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 300173466,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2826258391,
+            19.3520842007
+          ]
+        },
+        "properties": {
+          "id": 300173466,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2025-07-18",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Zacatonero Serrano",
+          "scientificName": "Oriturus superciliosus",
+          "taxonId": 10702,
+          "observerName": "ALBERTO PALAFOX SOLIS",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/540826403/medium.jpg",
+          "photoAttribution": "(c) ALBERTO PALAFOX SOLIS, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/300173466"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 300244205,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2848371883,
+            19.3513513511
+          ]
+        },
+        "properties": {
+          "id": 300244205,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2025-07-22",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Zanate mayor",
+          "scientificName": "Quiscalus mexicanus",
+          "taxonId": 9607,
+          "observerName": "Ly Cruz",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/540961155/medium.jpg",
+          "photoAttribution": "(c) Ly Cruz, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/300244205"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 300258682,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2739080989,
+            19.3556348953
+          ]
+        },
+        "properties": {
+          "id": 300258682,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2025-07-22",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Pato mexicano",
+          "scientificName": "Anas diazi",
+          "taxonId": 827372,
+          "observerName": "prm66",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/540988062/medium.jpg",
+          "photoAttribution": "(c) prm66, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/300258682"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 304164369,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2743,
+            19.3555666667
+          ]
+        },
+        "properties": {
+          "id": 304164369,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2025-06-11",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Cuicacoche Pico Curvo",
+          "scientificName": "Toxostoma curvirostre",
+          "taxonId": 14912,
+          "observerName": "TeamTzibim",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/548301323/medium.jpg",
+          "photoAttribution": "(c) TeamTzibim, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/304164369"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 304259317,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2737729438,
+            19.3542970075
+          ]
+        },
+        "properties": {
+          "id": 304259317,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2025-08-02",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Rascador Viejita",
+          "scientificName": "Melozone fusca",
+          "taxonId": 145289,
+          "observerName": "Marcel Kouwenhoven",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/548474347/medium.jpg",
+          "photoAttribution": "(c) Marcel Kouwenhoven, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/304259317"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 312321931,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2822944444,
+            19.3500611111
+          ]
+        },
+        "properties": {
+          "id": 312321931,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2025-09-07",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Chara de Collar",
+          "scientificName": "Aphelocoma woodhouseii",
+          "taxonId": 506117,
+          "observerName": "Bernardo González Castro",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/312321931"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 325359685,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.27458,
+            19.3546283333
+          ]
+        },
+        "properties": {
+          "id": 325359685,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2025-11-05",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Cuicacoche Pico Curvo",
+          "scientificName": "Toxostoma curvirostre",
+          "taxonId": 14912,
+          "observerName": "jimenawls",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/589067570/medium.jpg",
+          "photoAttribution": "(c) jimenawls, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/325359685"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 332789894,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2794265744,
+            19.3488540647
+          ]
+        },
+        "properties": {
+          "id": 332789894,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2024-09-28",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Gorrión Doméstico",
+          "scientificName": "Passer domesticus",
+          "taxonId": 13858,
+          "observerName": "Mar M. Aguilar",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/332789894"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 339433986,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2826026997,
+            19.3564578997
+          ]
+        },
+        "properties": {
+          "id": 339433986,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-02-20",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Gorrión Doméstico",
+          "scientificName": "Passer domesticus",
+          "taxonId": 13858,
+          "observerName": "Erick",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/617479373/medium.jpg",
+          "photoAttribution": "(c) Erick, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/339433986"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 352808360,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2874601856,
+            19.3469399113
+          ]
+        },
+        "properties": {
+          "id": 352808360,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-04-24",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Clarín jilguero",
+          "scientificName": "Myadestes occidentalis",
+          "taxonId": 12949,
+          "observerName": "Diana García",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/352808360"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 353663880,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2905598134,
+            19.3499097127
+          ]
+        },
+        "properties": {
+          "id": 353663880,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-04-25",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Colibrí garganta azul",
+          "scientificName": "Lampornis clemenciae",
+          "taxonId": 5827,
+          "observerName": "Kendra",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/353663880"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 353785917,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.290566016,
+            19.34976961
+          ]
+        },
+        "properties": {
+          "id": 353785917,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-04-25",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Picochueco Vientre Canela",
+          "scientificName": "Diglossa baritula",
+          "taxonId": 9833,
+          "observerName": "Kendra",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/353785917"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 353909787,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2900874093,
+            19.3500874942
+          ]
+        },
+        "properties": {
+          "id": 353909787,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-04-25",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Saltapared Común",
+          "scientificName": "Troglodytes aedon",
+          "taxonId": 7562,
+          "observerName": "Jimena MM",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/645680548/medium.jpg",
+          "photoAttribution": "(c) Jimena MM, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/353909787"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 353909915,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2892747,
+            19.3506183067
+          ]
+        },
+        "properties": {
+          "id": 353909915,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-04-25",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Gorrión cantor",
+          "scientificName": "Melospiza melodia",
+          "taxonId": 9100,
+          "observerName": "Jimena MM",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/645681263/medium.jpg",
+          "photoAttribution": "(c) Jimena MM, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/353909915"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 353915493,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2893551663,
+            19.3506464606
+          ]
+        },
+        "properties": {
+          "id": 353915493,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-04-25",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Gorrión cantor",
+          "scientificName": "Melospiza melodia",
+          "taxonId": 9100,
+          "observerName": "Jimena MM",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/645691064/medium.jpg",
+          "photoAttribution": "(c) Jimena MM, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/353915493"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 353926005,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2901480943,
+            19.3500498501
+          ]
+        },
+        "properties": {
+          "id": 353926005,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-04-25",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Mirlo dorso canela",
+          "scientificName": "Turdus rufopalliatus",
+          "taxonId": 12714,
+          "observerName": "Kendra",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/353926005"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 354522993,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.285156168,
+            19.3481616235
+          ]
+        },
+        "properties": {
+          "id": 354522993,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-04-26",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Sastrecillo",
+          "scientificName": "Psaltriparus minimus",
+          "taxonId": 7266,
+          "observerName": "Jimena MM",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/646721671/medium.jpg",
+          "photoAttribution": "(c) Jimena MM, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/354522993"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 354532174,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2848973349,
+            19.3482245753
+          ]
+        },
+        "properties": {
+          "id": 354532174,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-04-26",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Chipe corona negra",
+          "scientificName": "Cardellina pusilla",
+          "taxonId": 145276,
+          "observerName": "Jimena MM",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/646736799/medium.jpg",
+          "photoAttribution": "(c) Jimena MM, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/354532174"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 354535598,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2848976701,
+            19.3482271061
+          ]
+        },
+        "properties": {
+          "id": 354535598,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-04-26",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Chipe de Audubon",
+          "scientificName": "Setophaga coronata auduboni",
+          "taxonId": 126562,
+          "observerName": "Jimena MM",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/646741429/medium.jpg",
+          "photoAttribution": "(c) Jimena MM, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/354535598"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 354541506,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2848859355,
+            19.3482166668
+          ]
+        },
+        "properties": {
+          "id": 354541506,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-04-26",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Sastrecillo",
+          "scientificName": "Psaltriparus minimus",
+          "taxonId": 7266,
+          "observerName": "Jimena MM",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/646751828/medium.jpg",
+          "photoAttribution": "(c) Jimena MM, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/354541506"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 354572317,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2876536399,
+            19.3462072592
+          ]
+        },
+        "properties": {
+          "id": 354572317,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-04-26",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Pavito Alas Negras",
+          "scientificName": "Myioborus miniatus",
+          "taxonId": 9457,
+          "observerName": "Jimena MM",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/646801283/medium.jpg",
+          "photoAttribution": "(c) Jimena MM, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/354572317"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 355771718,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2845630646,
+            19.3482894251
+          ]
+        },
+        "properties": {
+          "id": 355771718,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-04-27",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Sastrecillo",
+          "scientificName": "Psaltriparus minimus",
+          "taxonId": 7266,
+          "observerName": "Kendra",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/355771718"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 355772867,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2855662107,
+            19.3481467555
+          ]
+        },
+        "properties": {
+          "id": 355772867,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-04-27",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Pavito Alas Negras",
+          "scientificName": "Myioborus miniatus",
+          "taxonId": 9457,
+          "observerName": "Kendra",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/355772867"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 355782133,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2878155783,
+            19.3462313014
+          ]
+        },
+        "properties": {
+          "id": 355782133,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-04-27",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Clarín jilguero",
+          "scientificName": "Myadestes occidentalis",
+          "taxonId": 12949,
+          "observerName": "Kendra",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/355782133"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 362147075,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2752098194,
+            19.3551702221
+          ]
+        },
+        "properties": {
+          "id": 362147075,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-05-13",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Gorrión Doméstico",
+          "scientificName": "Passer domesticus",
+          "taxonId": 13858,
+          "observerName": "Emiliano Valencia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/660958206/medium.jpg",
+          "photoAttribution": "(c) Emiliano Valencia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/362147075"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 362147128,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2743443888,
+            19.3555199381
+          ]
+        },
+        "properties": {
+          "id": 362147128,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-05-13",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Cuicacoche Pico Curvo",
+          "scientificName": "Toxostoma curvirostre",
+          "taxonId": 14912,
+          "observerName": "Emiliano Valencia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/660958353/medium.jpg",
+          "photoAttribution": "(c) Emiliano Valencia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/362147128"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 362335008,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2748789742,
+            19.3551057464
+          ]
+        },
+        "properties": {
+          "id": 362335008,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-05-13",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Rascador Viejita",
+          "scientificName": "Melozone fusca",
+          "taxonId": 145289,
+          "observerName": "Emiliano Valencia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/661320858/medium.jpg",
+          "photoAttribution": "(c) Emiliano Valencia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/362335008"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 362335030,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2750394847,
+            19.3552983907
+          ]
+        },
+        "properties": {
+          "id": 362335030,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-05-13",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Tortolita Cola Larga",
+          "scientificName": "Columbina inca",
+          "taxonId": 3544,
+          "observerName": "Emiliano Valencia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/661320914/medium.jpg",
+          "photoAttribution": "(c) Emiliano Valencia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/362335030"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 363616443,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2740166864,
+            19.3552662097
+          ]
+        },
+        "properties": {
+          "id": 363616443,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-05-13",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Zacatonero Serrano",
+          "scientificName": "Oriturus superciliosus",
+          "taxonId": 10702,
+          "observerName": "Álvaro San José Elizundia",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/663756884/medium.jpg",
+          "photoAttribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/363616443"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 381228590,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2740466922,
+            19.354850947
+          ]
+        },
+        "properties": {
+          "id": 381228590,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-07-08",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Gorrión Doméstico",
+          "scientificName": "Passer domesticus",
+          "taxonId": 13858,
+          "observerName": "Adán Muñoz Lozano",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/381228590"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 381228595,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2739809781,
+            19.3550735131
+          ]
+        },
+        "properties": {
+          "id": 381228595,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-07-08",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Rascador Viejita",
+          "scientificName": "Melozone fusca",
+          "taxonId": 145289,
+          "observerName": "Adán Muñoz Lozano",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/381228595"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 381228600,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2740544719,
+            19.3550200541
+          ]
+        },
+        "properties": {
+          "id": 381228600,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-07-08",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Zacatonero Serrano",
+          "scientificName": "Oriturus superciliosus",
+          "taxonId": 10702,
+          "observerName": "Adán Muñoz Lozano",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/381228600"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 381228607,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2742433674,
+            19.3551048298
+          ]
+        },
+        "properties": {
+          "id": 381228607,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-07-08",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Rascador Viejita",
+          "scientificName": "Melozone fusca",
+          "taxonId": 145289,
+          "observerName": "Adán Muñoz Lozano",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/381228607"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 381228609,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2739194573,
+            19.3552085851
+          ]
+        },
+        "properties": {
+          "id": 381228609,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-07-08",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "paloma doméstica",
+          "scientificName": "Columba livia domestica",
+          "taxonId": 122767,
+          "observerName": "Adán Muñoz Lozano",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/381228609"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 381228611,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2738202156,
+            19.355163034
+          ]
+        },
+        "properties": {
+          "id": 381228611,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-07-08",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Rascador Viejita",
+          "scientificName": "Melozone fusca",
+          "taxonId": 145289,
+          "observerName": "Adán Muñoz Lozano",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/381228611"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 404737023,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2814,
+            19.3526
+          ]
+        },
+        "properties": {
+          "id": 404737023,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-09-30",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Papamoscas cardenalito",
+          "scientificName": "Pyrocephalus rubinus",
+          "taxonId": 16447,
+          "observerName": "Fabian Romero Hernández",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/404737023"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 404740819,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.2833,
+            19.3552
+          ]
+        },
+        "properties": {
+          "id": 404740819,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-09-30",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Chipe Gorra Canela Común",
+          "scientificName": "Basileuterus rufifrons",
+          "taxonId": 10045,
+          "observerName": "Fabian Romero Hernández",
+          "photoUrl": null,
+          "photoAttribution": null,
+          "photoLicense": null,
+          "observationUrl": "https://www.inaturalist.org/observations/404740819"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 404931549,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.27407,
+            19.3559333333
+          ]
+        },
+        "properties": {
+          "id": 404931549,
+          "source": "inaturalist",
+          "sourceLabel": "iNaturalist",
+          "datasetName": "iNaturalist Research-grade Observations",
+          "recordType": "Observación comunitaria",
+          "observedOn": "2026-09-28",
+          "qualityGrade": "research",
+          "iconicGroup": "birds",
+          "commonName": "Zanate mayor",
+          "scientificName": "Quiscalus mexicanus",
+          "taxonId": 9607,
+          "observerName": "Coastal Stories by Adri",
+          "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/743700135/medium.jpg",
+          "photoAttribution": "(c) Coastal Stories by Adri, some rights reserved (CC BY-NC)",
+          "photoLicense": "cc-by-nc",
+          "observationUrl": "https://www.inaturalist.org/observations/404931549"
+        }
+      }
+    ]
+  }
+}

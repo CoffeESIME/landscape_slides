@@ -39,13 +39,13 @@
     "id": "miedo",
     "title": "La naturaleza también da miedo",
     "chapter": 1,
-    "steps": 8
+    "steps": 6
   },
   {
     "id": "asombro",
     "title": "Más cielo que tierra",
     "chapter": 1,
-    "steps": 3
+    "steps": 2
   },
   {
     "id": "yo",
@@ -133,7 +133,7 @@
   },
   {
     "id": "biodiversidad",
-    "title": "Alrededor de aquí",
+    "title": "Aves de UAM Cuajimalpa",
     "chapter": 3,
     "steps": 1
   },
