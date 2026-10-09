@@ -33,7 +33,7 @@
     "id": "animales",
     "title": "Seguimos siendo animales",
     "chapter": 1,
-    "steps": 2
+    "steps": 3
   },
   {
     "id": "miedo",
@@ -58,12 +58,6 @@
     "title": "El otro sigue siendo otro",
     "chapter": 1,
     "steps": 3
-  },
-  {
-    "id": "ciudad",
-    "title": "Acercarnos",
-    "chapter": 2,
-    "steps": 1
   },
   {
     "id": "cerro-estrella",
@@ -93,7 +87,7 @@
     "id": "caminar",
     "title": "Caminar sin llegar",
     "chapter": 2,
-    "steps": 4
+    "steps": 3
   },
   {
     "id": "ave",
@@ -171,13 +165,19 @@
     "id": "regreso",
     "title": "Volver a la montaña",
     "chapter": 6,
-    "steps": 11
+    "steps": 10
   },
   {
     "id": "lo-pequeno",
     "title": "Volver a lo pequeño",
     "chapter": 6,
     "steps": 3
+  },
+  {
+    "id": "caeiro",
+    "title": "Ver y oír",
+    "chapter": 6,
+    "steps": 2
   },
   {
     "id": "cierre",

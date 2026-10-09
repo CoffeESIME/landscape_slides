@@ -42,7 +42,7 @@ Ver **ACTUALIZACION.md** para el informe completo, **INVENTARIO-NARRATIVO.md** p
 
 ## Pulido narrativo
 
-Guía de 30 minutos: 4 / 4 / 5 / 5 / 5 / 4 / 3 por acto, siempre con avance manual. Notas de ensayo y puentes en `src/data/rehearsal.ts`. Informe y tabla antes/después en **ACTUALIZACION.md**. Capturas nuevas en `verification/pulido-20261009/`.
+Guía de aproximadamente 31 minutos: 4 / 4,8 / 5 / 5 / 5 / 4 / 3,5 por acto, siempre con avance manual. Notas de ensayo y puentes en `src/data/rehearsal.ts`. Última actualización puntual en **ACTUALIZACION-BIENESTAR-CAEIRO.md**; informe del pulido anterior en **ACTUALIZACION.md**. Capturas actuales en `verification/bienestar-caeiro/`.
 
 El colibrí se escucha primero con imagen oculta; M activa/silencia el audio. Después se revela el video, nombre común y científico; el paso de repetición y su botón reinician el mismo archivo. Repetir conserva el mute. El cierre y el cambio de escena detienen el registro.
 

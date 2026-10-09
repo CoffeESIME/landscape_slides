@@ -28,7 +28,22 @@ for(const [old,current] of Object.entries({'espacio-vacio':'conocer-lugar',antes
  await page.waitForFunction(id=>location.hash==='#'+id,current);
 }
 const minutes=Array.from({length:7},(_,i)=>Number(presentation.filter(s=>s.chapter===i).reduce((n,s)=>n+s.minutes,0).toFixed(2)));
-assert.deepEqual(minutes,[4,4,5,5,5,4,3]);
+assert.deepEqual(minutes,[4,4.8,5,5,5,4,3.5]);
+// Narrative regression: coda stays between flower and the unaltered black ending.
+assert.deepEqual(presentation.slice(-4).map(s=>s.id),['regreso','lo-pequeno','caeiro','cierre']);
+const scene=id=>presentation.find(s=>s.id===id);
+assert.equal(scene('animales').steps.at(-1).text,'NATURALEZA Y BIENESTAR');
+assert.match(scene('animales').notes.speakerNotes,/45–60 segundos/);
+assert.match(scene('animales').notes.speakerNotes,/no significa que la naturaleza sea una medicina automática/);
+assert.match(scene('regreso').steps[0].text,/maneras de mirar esta montaña/);
+assert.match(scene('regreso').notes.speakerNotes,/maneras de relacionarnos/);
+assert.equal(scene('lo-pequeno').steps.at(-1).text,'Cambió nuestra capacidad de encontrarlo.');
+assert.match(scene('lo-pequeno').notes.speakerNotes,/Caeiro/);
+assert.match(scene('caeiro').notes.speakerNotes,/primer paso negro y silencioso/);
+assert.equal(scene('caeiro').notes.evidenceType,'poetic');
+assert.ok(scene('caeiro').steps.every(s=>s.text.length<100&&!s.audio));
+assert.deepEqual(scene('cierre').steps,[{},...['Quizá proteger un paisaje empieza mucho antes de una ley.','mirarlo','escucharlo','recorrerlo','reconocer lo que vive ahí','aprender sus historias','registrarlo','compartir lo que encontramos','y también','DISFRUTARLO','Porque difícilmente podemos discutir qué estamos perdiendo si nunca supimos qué había ahí.'].map(text=>({text}))]);
+for(const id of ['animales','regreso','lo-pequeno','caeiro'])assert.equal(scene(id).notes.say,scene(id).notes.speakerNotes);
 assert.equal(presentation.find(s=>s.id==='iztaccihuatl').image,presentation.find(s=>s.id==='regreso').image);
 assert.equal(presentation.find(s=>s.id==='flor').image,presentation.find(s=>s.id==='lo-pequeno').image);
 await page.emulateMedia({reducedMotion:'no-preference'});await page.goto(base+'#ave/4');
@@ -41,5 +56,5 @@ await page.keyboard.press('m');assert.equal(await page.locator('video').evaluate
 await page.getByRole('button',{name:'Repetir el mismo registro',exact:false}).click();
 assert.equal(await page.locator('video').evaluate(v=>v.muted),true);
 await page.keyboard.press('f');await page.waitForFunction(()=>!document.fullscreenElement);
-await writeFile('verification/integrity-results.json',JSON.stringify({assets:assets.length,sceneStepsAtBothSizes:checked,clipping,minutes,legacyHashes:6,videoFullscreen:true,videoMutePreservedOnReplay:true},null,2));
+await writeFile('verification/integrity-results.json',JSON.stringify({assets:assets.length,sceneStepsAtBothSizes:checked,clipping,minutes,legacyHashes:6,videoFullscreen:true,videoMutePreservedOnReplay:true,narrativeNotesAndCoda:true,endingUnchanged:true},null,2));
 await browser.close();console.log('PASS assets, all hashes, layout bounds, chapter timings, video fullscreen');
